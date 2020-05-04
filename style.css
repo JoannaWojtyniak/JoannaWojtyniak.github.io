@@ -90,8 +90,8 @@ body header .tablet .container .undermB .mainButton {
 
 @media only screen and (max-width: 375px) {
   .tablet {
-    width: 100%;
-    height: 30vh;
+    width: 90% !important;
+    height: 30vh !important;
   }
 }
 /*# sourceMappingURL=style.css.map */
