@@ -1,11 +1,11 @@
 *{box-sizing: border-box;}
 body{
     margin:0;
-    width:100%;
-    height: 100%;
-    header{
+    font-family: 'Work Sans', sans-serif;
+    .obrazek{
         display: flex;
         justify-content: space-evenly;
+        background-color: black;
 
         .tablet{
             background-color: #303030;
@@ -31,32 +31,134 @@ body{
             display: flex;
             flex:1;
             flex-direction: column;
+            align-items: center;
+            margin-right:3vh ;
+            
            
-                .undermB{
-                    background-color: #1E1D1D;
-                    height:15vh;
-                    width:15vh;
-                    border-radius: 50%;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    .mainButton{         
-                    background-color: #393939;
-                    height:9vh;
-                    width:9vh;
-                    border-radius: 50%;
-                    display: flex;
-                    }
-           
-                }    
-
+                    .undermB{
+                        background-color: #1E1D1D;
+                        border:0.5vh rgb(87, 87, 87) solid;
+                        height:15vh;
+                        width:15vh;
+                        border-radius: 50%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        .mainButton{         
+                        background-color: #393939;
+                        border:0.5vh solid #100F0F;
+                        height:10vh;
+                        width:10vh;
+                        border-radius: 50%;
+                        display: flex;
+                        }
+            
+                    }    
+                .button1{
+                   background-color:#202020 ;
+                   border:0.5vh solid rgb(15, 15, 15); 
+                   height: 6vh;
+                   width:20vh; 
+                   border-radius:10vh;
+                   margin-bottom: 2vh;
+                }  
+                .button2{
+                    background-color:#202020 ;
+                    border:0.5vh solid rgb(15, 15, 15); 
+                    height: 6vh;
+                    width:20vh; 
+                    border-radius:10vh;
+                    margin-bottom: 2vh;
+                 }  
+                 .button3{
+                    background-color:#202020 ;
+                   border:0.5vh solid rgb(15, 15, 15); 
+                   height: 6vh;
+                   width:20vh; 
+                   border-radius:10vh;
+                   margin-top: 2vh;
+                 }  
+                 .button4{
+                    background-color:#202020 ;
+                    border:0.5vh solid rgb(15, 15, 15); 
+                    height: 6vh;
+                    width:20vh; 
+                    border-radius:10vh;
+                    margin-top: 2vh;
+                 }    
         }
 
-        }
-        .pen{
-            background-image: url(pen.png);
-        }    
+        } 
+        
     }
+     .menu{
+        background-color: black;
+        
+        .pen{
+            display: flex;
+            justify-content: center;
+            padding-top: 3vh;
+            position: relative;
+            .omnie{
+                background-color:#202020 ;
+                border:0.5vh solid rgb(15, 15, 15); 
+                height: 6vh;
+                width:20vh; 
+                border-radius:10vh;
+                margin-top: 2vh;
+                position: absolute;
+                display: flex;
+                justify-items: stretch;
+             }  
+             .projekty{
+                background-color:#202020 ;
+                border:0.5vh solid rgb(15, 15, 15); 
+                height: 6vh;
+                width:20vh; 
+                border-radius:10vh;
+                margin-top: 2vh;
+                position: absolute;
+                display: flex;
+                justify-items: stretch;
+                
+             } 
+             .kontakt{
+                background-color:#202020 ;
+                border:0.5vh solid rgb(15, 15, 15); 
+                height: 6vh;
+                width:20vh; 
+                border-radius:10vh;
+                margin-top: 2vh;
+                position: absolute;
+                display: flex;
+                justify-items: stretch;
+             }         
+        }
+     } 
+   .aboutme{
+       background-color: #6C767E;
+      
+       .title{
+           text-align: center;
+           font-size:2.5rem;
+           color: white;
+       }
+       .kontener{
+           display: flex;
+        .text{
+            display: flex;
+            flex:1;
+            flex-direction: column;
+            font-size: 1.5rem;
+            
+           }
+           .picture{
+            display: flex;
+            flex:1;
+            
+           }
+       }
+   }     
 }
 //@media only screen and(max-width:1024px){
    // .tablet{

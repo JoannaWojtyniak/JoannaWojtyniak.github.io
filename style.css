@@ -5,20 +5,20 @@
 
 body {
   margin: 0;
-  width: 100%;
-  height: 100%;
+  font-family: 'Work Sans', sans-serif;
 }
 
-body header {
+body .obrazek {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  background-color: black;
 }
 
-body header .tablet {
+body .obrazek .tablet {
   background-color: #303030;
   width: 65%;
   height: 70vh;
@@ -34,7 +34,7 @@ body header .tablet {
   padding-right: 5%;
 }
 
-body header .tablet .ekran {
+body .obrazek .tablet .ekran {
   background-color: #111111;
   height: 70%;
   display: -webkit-box;
@@ -49,7 +49,7 @@ body header .tablet .ekran {
   border-radius: 3%;
 }
 
-body header .tablet .container {
+body .obrazek .tablet .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -60,10 +60,15 @@ body header .tablet .container {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 3vh;
 }
 
-body header .tablet .container .undermB {
+body .obrazek .tablet .container .undermB {
   background-color: #1E1D1D;
+  border: 0.5vh #575757 solid;
   height: 15vh;
   width: 15vh;
   border-radius: 50%;
@@ -78,17 +83,146 @@ body header .tablet .container .undermB {
           align-items: center;
 }
 
-body header .tablet .container .undermB .mainButton {
+body .obrazek .tablet .container .undermB .mainButton {
   background-color: #393939;
-  height: 9vh;
-  width: 9vh;
+  border: 0.5vh solid #100F0F;
+  height: 10vh;
+  width: 10vh;
   border-radius: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-body header .pen {
-  background-image: url(pen.png);
+body .obrazek .tablet .container .button1 {
+  background-color: #202020;
+  border: 0.5vh solid #0f0f0f;
+  height: 6vh;
+  width: 20vh;
+  border-radius: 10vh;
+  margin-bottom: 2vh;
+}
+
+body .obrazek .tablet .container .button2 {
+  background-color: #202020;
+  border: 0.5vh solid #0f0f0f;
+  height: 6vh;
+  width: 20vh;
+  border-radius: 10vh;
+  margin-bottom: 2vh;
+}
+
+body .obrazek .tablet .container .button3 {
+  background-color: #202020;
+  border: 0.5vh solid #0f0f0f;
+  height: 6vh;
+  width: 20vh;
+  border-radius: 10vh;
+  margin-top: 2vh;
+}
+
+body .obrazek .tablet .container .button4 {
+  background-color: #202020;
+  border: 0.5vh solid #0f0f0f;
+  height: 6vh;
+  width: 20vh;
+  border-radius: 10vh;
+  margin-top: 2vh;
+}
+
+body .menu {
+  background-color: black;
+}
+
+body .menu .pen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 3vh;
+  position: relative;
+}
+
+body .menu .pen .omnie {
+  background-color: #202020;
+  border: 0.5vh solid #0f0f0f;
+  height: 6vh;
+  width: 20vh;
+  border-radius: 10vh;
+  margin-top: 2vh;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-items: stretch;
+}
+
+body .menu .pen .projekty {
+  background-color: #202020;
+  border: 0.5vh solid #0f0f0f;
+  height: 6vh;
+  width: 20vh;
+  border-radius: 10vh;
+  margin-top: 2vh;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-items: stretch;
+}
+
+body .menu .pen .kontakt {
+  background-color: #202020;
+  border: 0.5vh solid #0f0f0f;
+  height: 6vh;
+  width: 20vh;
+  border-radius: 10vh;
+  margin-top: 2vh;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-items: stretch;
+}
+
+body .aboutme {
+  background-color: #6C767E;
+}
+
+body .aboutme .title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: white;
+}
+
+body .aboutme .kontener {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .aboutme .kontener .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 1.5rem;
+}
+
+body .aboutme .kontener .picture {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 /*# sourceMappingURL=style.css.map */
