@@ -65,7 +65,7 @@ body header .tablet .container {
 body header .tablet .container .undermB {
   background-color: #1E1D1D;
   height: 15vh;
-  width: 15vw;
+  width: 15vh;
   border-radius: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -81,7 +81,7 @@ body header .tablet .container .undermB {
 body header .tablet .container .undermB .mainButton {
   background-color: #393939;
   height: 9vh;
-  width: 9vw;
+  width: 9vh;
   border-radius: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -94,8 +94,8 @@ body header .tablet .container .undermB .mainButton {
     height: 30vh !important;
   }
   .tablet .undermB {
-    height: 7vh;
-    width: 7vw;
+    height: 5vh !important;
+    width: 5vh !important;
   }
 }
 /*# sourceMappingURL=style.css.map */

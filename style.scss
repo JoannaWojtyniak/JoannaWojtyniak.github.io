@@ -35,7 +35,7 @@ body{
                 .undermB{
                     background-color: #1E1D1D;
                     height:15vh;
-                    width:15vw;
+                    width:15vh;
                     border-radius: 50%;
                     display: flex;
                     justify-content: center;
@@ -43,7 +43,7 @@ body{
                     .mainButton{         
                     background-color: #393939;
                     height:9vh;
-                    width:9vw;
+                    width:9vh;
                     border-radius: 50%;
                     display: flex;
                     }
@@ -59,8 +59,8 @@ body{
         width:90%!important;
         height:30vh!important;
         .undermB{
-            height:7vh;
-            width:7vw;  
+            height:5vh!important;
+            width:5vh!important;  
         }
     }
 }
