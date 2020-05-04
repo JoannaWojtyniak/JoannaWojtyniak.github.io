@@ -87,4 +87,10 @@ body header .tablet .container .undermB .mainButton {
   display: -ms-flexbox;
   display: flex;
 }
+
+@media only screen and (max-width: 375px) {
+  .tablet {
+    width: 100%;
+  }
+}
 /*# sourceMappingURL=style.css.map */

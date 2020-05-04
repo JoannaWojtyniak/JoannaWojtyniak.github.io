@@ -20,7 +20,6 @@ body{
        
         .ekran{
             background-color: #111111;
-            height:50vh;
             display: flex;
             align-items: center;
             flex:4;
@@ -52,5 +51,11 @@ body{
 
         }
         }
+    }
+}
+@media only screen and(max-width:375px){
+    .tablet{
+        width:100%;
+        height:
     }
 }
