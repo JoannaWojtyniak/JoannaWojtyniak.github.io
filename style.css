@@ -67,10 +67,14 @@ body header .tablet .container .undermB {
   height: 15vh;
   width: 60%;
   border-radius: 50%;
-  direction: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
 }
 
 body header .tablet .container .undermB .mainButton {
@@ -78,11 +82,8 @@ body header .tablet .container .undermB .mainButton {
   height: 9vh;
   width: 60%;
   border-radius: 50%;
-  margin-left: 10%;
-  margin-top: 10%;
-  direction: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=style.css.map */
