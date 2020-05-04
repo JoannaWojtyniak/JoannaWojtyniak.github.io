@@ -62,19 +62,27 @@ body header .tablet .container {
           flex-direction: column;
 }
 
-body header .tablet .container .mainButton {
-  background-color: #393939;
-  height: 10vh;
-  width: 40%;
-  border-radius: 50%;
-  margin-left: 10%;
-  margin-top: 10%;
-}
-
-body header .tablet .container .mainButton .undermB {
+body header .tablet .container .undermB {
   background-color: #1E1D1D;
   height: 15vh;
   width: 60%;
   border-radius: 50%;
+  direction: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body header .tablet .container .undermB .mainButton {
+  background-color: #393939;
+  height: 9vh;
+  width: 60%;
+  border-radius: 50%;
+  margin-left: 10%;
+  margin-top: 10%;
+  direction: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=style.css.map */
