@@ -51,16 +51,21 @@ body{
                 }    
 
         }
+
         }
+        .pen{
+            background-image: url(pen.png);
+        }    
     }
 }
-@media only screen and(max-width:600px){
-    .tablet{
-        width:90%!important;
-        height:30vh!important;
-        .undermB{
-            height:5vh!important;
-            width:5vh!important;  
-        }
-    }
-}
+//@media only screen and(max-width:1024px){
+   // .tablet{
+     //   display:none;
+       // width:90%!important;
+       // height:30vh!important;
+      //  .undermB{
+      //      height:5vh!important;
+       //     width:5vh!important;  
+       // }
+  //  }
+//}
