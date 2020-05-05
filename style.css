@@ -158,6 +158,10 @@ body .menu .pen {
           justify-content: center;
   padding-top: 3vh;
   position: relative;
+  padding-bottom: 3.5vh;
+  text-align: center;
+  color: white;
+  font-size: rem;
 }
 
 body .menu .pen .omnie {
@@ -174,6 +178,11 @@ body .menu .pen .omnie {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  margin-left: -40vh;
+}
+
+body .menu .pen .omnie p {
+  margin-bottom: 10vh;
 }
 
 body .menu .pen .projekty {
@@ -190,6 +199,7 @@ body .menu .pen .projekty {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  margin-left: 7vh;
 }
 
 body .menu .pen .kontakt {
@@ -206,6 +216,7 @@ body .menu .pen .kontakt {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  margin-left: 55vh;
 }
 
 body .aboutme {
@@ -216,6 +227,10 @@ body .aboutme .title {
   text-align: center;
   font-size: 2.5rem;
   color: white;
+}
+
+body .aboutme .title h1 {
+  margin: 0;
 }
 
 body .aboutme .kontener {
@@ -239,10 +254,81 @@ body .aboutme .kontener .text {
 }
 
 body .aboutme .kontener .text .zainteresowania {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  text-align: center;
+  color: white;
+  font-size: 0.85rem;
+}
+
+body .aboutme .kontener .text .zainteresowania .buttonZ {
   background-color: #202020;
   border: 0.5vh solid #0f0f0f;
-  height: 6vh;
-  width: 20vh;
+  height: 8vh;
+  width: 30vh;
+  border-radius: 10vh;
+}
+
+body .aboutme .kontener .text .zainteresowania .buttonZ1 {
+  background-color: #202020;
+  border: 0.5vh solid #0f0f0f;
+  height: 8vh;
+  width: 30vh;
+  border-radius: 10vh;
+}
+
+body .aboutme .kontener .text .znajomosc .first {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding-bottom: 5vh;
+}
+
+body .aboutme .kontener .text .znajomosc .first .button1 {
+  background-color: #202020;
+  border: 0.5vh solid #0f0f0f;
+  height: 8vh;
+  width: 30vh;
+  border-radius: 10vh;
+}
+
+body .aboutme .kontener .text .znajomosc .first .button2 {
+  background-color: #202020;
+  border: 0.5vh solid #0f0f0f;
+  height: 8vh;
+  width: 30vh;
+  border-radius: 10vh;
+}
+
+body .aboutme .kontener .text .znajomosc .second {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+body .aboutme .kontener .text .znajomosc .second .button3 {
+  background-color: #202020;
+  border: 0.5vh solid #0f0f0f;
+  height: 8vh;
+  width: 30vh;
+  border-radius: 10vh;
+}
+
+body .aboutme .kontener .text .znajomosc .second .button4 {
+  background-color: #202020;
+  border: 0.5vh solid #0f0f0f;
+  height: 8vh;
+  width: 30vh;
   border-radius: 10vh;
 }
 
