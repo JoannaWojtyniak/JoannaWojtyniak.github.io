@@ -2,8 +2,6 @@
 body{
     margin:0;
     font-family: 'Work Sans', sans-serif;
-    position: sticky;
-    top:0;
     .obrazek{
         display: flex;
         justify-content: space-evenly;
@@ -43,7 +41,7 @@ body{
             
       //  }
         .light{
-            background-color: #f0e9e9;
+            background-color: #ECFAFA;
             height: 70%;
             display: flex;
             align-items: center;
@@ -121,6 +119,8 @@ body{
     }
      .menu{
         background-color: black;
+        position: sticky;
+        top:0;
         
         .pen{
             display: flex;
@@ -175,6 +175,7 @@ body{
      } 
    .aboutme{
        background-color: #6C767E;
+       padding-top:20vh;
       
        .title{
            text-align: center;
@@ -271,6 +272,7 @@ body{
    } 
    .projects{
     background-color: #6C767E;
+    padding-top:20vh;
         .tytul{
             color:white;
             font-size: 2.5rem;

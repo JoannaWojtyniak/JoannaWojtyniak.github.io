@@ -6,9 +6,6 @@
 body {
   margin: 0;
   font-family: 'Work Sans', sans-serif;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
 }
 
 body .obrazek {
@@ -53,7 +50,7 @@ body .obrazek .tablet {
 }
 
 body .obrazek .tablet .light {
-  background-color: #f0e9e9;
+  background-color: #ECFAFA;
   height: 70%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -156,6 +153,9 @@ body .obrazek .tablet .container .button4 {
 
 body .menu {
   background-color: black;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 
 body .menu .pen {
@@ -235,6 +235,7 @@ body .menu .pen .kontakt {
 
 body .aboutme {
   background-color: #6C767E;
+  padding-top: 20vh;
 }
 
 body .aboutme .title {
@@ -371,6 +372,7 @@ body .aboutme .kontener .picture .zdjecie {
 
 body .projects {
   background-color: #6C767E;
+  padding-top: 20vh;
 }
 
 body .projects .tytul {
