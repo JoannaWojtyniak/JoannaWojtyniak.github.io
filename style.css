@@ -179,10 +179,9 @@ body .menu .pen .omnie {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   margin-left: -40vh;
-}
-
-body .menu .pen .omnie p {
-  margin-bottom: 10vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 body .menu .pen .projekty {
@@ -200,6 +199,9 @@ body .menu .pen .projekty {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   margin-left: 7vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 body .menu .pen .kontakt {
@@ -217,6 +219,9 @@ body .menu .pen .kontakt {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   margin-left: 55vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 body .aboutme {
@@ -314,6 +319,7 @@ body .aboutme .kontener .text .znajomosc .second {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  padding-bottom: 10vh;
 }
 
 body .aboutme .kontener .text .znajomosc .second .button3 {
@@ -339,5 +345,16 @@ body .aboutme .kontener .picture {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
+}
+
+body .projects {
+  background-color: #6C767E;
+}
+
+body .projects .tytul h1 {
+  color: white;
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 0;
 }
 /*# sourceMappingURL=style.css.map */

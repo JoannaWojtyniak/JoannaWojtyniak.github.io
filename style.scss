@@ -127,9 +127,7 @@ body{
                 display: flex;
                 justify-content: space-evenly;
                 margin-left: -40vh;
-                p{
-                   margin-bottom: 10vh;
-                }
+                align-items: center;
              }  
              .projekty{
                 background-color:#202020 ;
@@ -142,6 +140,7 @@ body{
                 display: flex;
                 justify-content:space-evenly;
                 margin-left: 7vh;
+                align-items: center;
                 
              } 
              .kontakt{
@@ -155,6 +154,7 @@ body{
                 display: flex;
                 justify-content: space-evenly;
                 margin-left: 55vh;
+                align-items: center;
              }         
         }
      } 
@@ -220,6 +220,7 @@ body{
                 .second{
                     display: flex;
                     justify-content: space-evenly;
+                    padding-bottom: 10vh;
                     .button3{
                         background-color:#202020 ;
                         border:0.5vh solid rgb(15, 15, 15); 
@@ -244,7 +245,18 @@ body{
             
            }
        }
-   }     
+   } 
+   .projects{
+    background-color: #6C767E;
+        .tytul{
+            h1{
+                color:white;
+                font-size: 2.5rem;
+                text-align: center;
+                margin: 0;
+            }
+        }  
+   }      
 }
 //@media only screen and(max-width:1024px){
    // .tablet{
