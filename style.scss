@@ -2,6 +2,8 @@
 body{
     margin:0;
     font-family: 'Work Sans', sans-serif;
+    position: sticky;
+    top:0;
     .obrazek{
         display: flex;
         justify-content: space-evenly;
@@ -31,14 +33,27 @@ body{
             padding-left: 3%;
             padding-right: 5%; 
        
-        .ekran{
-            background-color: #111111;
+       // .ekran{
+       //     background-color: #111111;
+       //     height: 70%;
+       //     display: flex;
+       //     align-items: center;
+       //     flex:4;
+       //     border-radius: 3%;  
+            
+      //  }
+        .light{
+            background-color: #f0e9e9;
             height: 70%;
             display: flex;
             align-items: center;
             flex:4;
-            border-radius: 3%;  
-            
+            border-radius: 3%; 
+            color:black;
+            text-align: center;
+            justify-content: center;
+            font-size: 3rem;
+
         }
         .container{
             display: flex;
@@ -257,11 +272,11 @@ body{
    .projects{
     background-color: #6C767E;
         .tytul{
+            color:white;
+            font-size: 2.5rem;
+            text-align: center;
             h1{
-                color:white;
-                font-size: 2.5rem;
-                text-align: center;
-                margin: 0;
+            margin: 0;
             }
         }  
    }      

@@ -6,6 +6,9 @@
 body {
   margin: 0;
   font-family: 'Work Sans', sans-serif;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 
 body .obrazek {
@@ -49,8 +52,8 @@ body .obrazek .tablet {
   padding-right: 5%;
 }
 
-body .obrazek .tablet .ekran {
-  background-color: #111111;
+body .obrazek .tablet .light {
+  background-color: #f0e9e9;
   height: 70%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -62,6 +65,12 @@ body .obrazek .tablet .ekran {
       -ms-flex: 4;
           flex: 4;
   border-radius: 3%;
+  color: black;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 3rem;
 }
 
 body .obrazek .tablet .container {
@@ -364,10 +373,13 @@ body .projects {
   background-color: #6C767E;
 }
 
-body .projects .tytul h1 {
+body .projects .tytul {
   color: white;
   font-size: 2.5rem;
   text-align: center;
+}
+
+body .projects .tytul h1 {
   margin: 0;
 }
 /*# sourceMappingURL=style.css.map */
