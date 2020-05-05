@@ -18,6 +18,21 @@ body .obrazek {
   background-color: black;
 }
 
+body .obrazek .kabel {
+  position: absolute;
+  margin-right: 305vh;
+  margin-top: 38vh;
+}
+
+body .obrazek .metka {
+  background-color: gray;
+  height: 20vh;
+  width: 10vh;
+  position: absolute;
+  margin-left: 150vh;
+  margin-top: 35vh;
+}
+
 body .obrazek .tablet {
   background-color: #303030;
   width: 65%;
@@ -215,6 +230,14 @@ body .aboutme .kontener .text {
       -ms-flex-direction: column;
           flex-direction: column;
   font-size: 1.5rem;
+}
+
+body .aboutme .kontener .text .zainteresowania {
+  background-color: #202020;
+  border: 0.5vh solid #0f0f0f;
+  height: 6vh;
+  width: 20vh;
+  border-radius: 10vh;
 }
 
 body .aboutme .kontener .picture {
