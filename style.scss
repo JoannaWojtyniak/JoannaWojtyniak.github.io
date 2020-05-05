@@ -242,14 +242,14 @@ body{
            .picture{
             display: flex;
             flex:1;
-            .zdjecie{
-            background-image: url(zdjecie.jpg);
-            height:300px;
-            width:300px;
-            border-radius: 50%;
-            
-            
-            }
+            justify-content: center;
+            align-items: center;
+                .zdjecie{
+                background-image: url(zdjecie.jpg);
+                height:300px;
+                width:300px;
+                border-radius: 50%;
+                }
             
            }
        }
