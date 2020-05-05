@@ -384,4 +384,35 @@ body .projects .tytul {
 body .projects .tytul h1 {
   margin: 0;
 }
+
+body .projects .kontener .cofnij {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  font-size: 10rem;
+  color: white;
+}
+
+body .projects .kontener .karuzela {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 8;
+      -ms-flex: 8;
+          flex: 8;
+}
+
+body .projects .kontener .dalej {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  font-size: 10rem;
+  color: white;
+}
 /*# sourceMappingURL=style.css.map */
