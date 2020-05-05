@@ -171,7 +171,9 @@ body .menu .pen .omnie {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  justify-items: stretch;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 body .menu .pen .projekty {
@@ -185,7 +187,9 @@ body .menu .pen .projekty {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  justify-items: stretch;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 body .menu .pen .kontakt {
@@ -199,7 +203,9 @@ body .menu .pen .kontakt {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  justify-items: stretch;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 body .aboutme {

@@ -121,7 +121,7 @@ body{
                 margin-top: 2vh;
                 position: absolute;
                 display: flex;
-                justify-items: stretch;
+                justify-content: space-evenly;
              }  
              .projekty{
                 background-color:#202020 ;
@@ -132,7 +132,7 @@ body{
                 margin-top: 2vh;
                 position: absolute;
                 display: flex;
-                justify-items: stretch;
+                justify-content:space-evenly;
                 
              } 
              .kontakt{
@@ -144,7 +144,7 @@ body{
                 margin-top: 2vh;
                 position: absolute;
                 display: flex;
-                justify-items: stretch;
+                justify-content: space-evenly;
              }         
         }
      } 
