@@ -272,26 +272,25 @@ body{
    } 
    .projects{
     background-color: #6C767E;
-    padding-top:20vh;
         .tytul{
             color:white;
             font-size: 2.5rem;
             text-align: center;
             h1{
             margin: 0;
+            padding-bottom: 8vh;
             }
         } 
         .kontener{
             display: flex;
-            .cofnij{
-                
+            .cofnij{ 
                 flex:1;
                 font-size: 10rem;
                 color:white;
             }
             .karuzela{
-                
                 flex:8;
+                text-align:center;
             }
             .dalej{
                 flex:1;

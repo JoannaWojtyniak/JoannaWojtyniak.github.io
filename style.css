@@ -372,7 +372,6 @@ body .aboutme .kontener .picture .zdjecie {
 
 body .projects {
   background-color: #6C767E;
-  padding-top: 20vh;
 }
 
 body .projects .tytul {
@@ -383,6 +382,7 @@ body .projects .tytul {
 
 body .projects .tytul h1 {
   margin: 0;
+  padding-bottom: 8vh;
 }
 
 body .projects .kontener {
@@ -403,6 +403,7 @@ body .projects .kontener .karuzela {
   -webkit-box-flex: 8;
       -ms-flex: 8;
           flex: 8;
+  text-align: center;
 }
 
 body .projects .kontener .dalej {
