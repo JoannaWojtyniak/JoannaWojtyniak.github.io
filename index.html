@@ -81,11 +81,32 @@
     <div class="projects">
         <div class="tytul"><h1>Projekty</h1></div>
         <div class="kontener">
-          <div class = "cofnij">‹</div> 
+          <div class = "cofnij" onclick="karuzela('lewo')">‹</div> 
           <div class= "karuzela"></div>
-          <div class ="dalej">›</div>
+          <div class ="dalej" onclick="karuzela('prawo')">›</div>
         </div>
     </div>    
   </article>
+  <script>
+    var slajd=1;
+    function karuzela(direction){
+      if(direction=="prawo"){
+        if(slajd <10){
+          slajd++;
+        }else{
+          slajd=1;
+        }
+      }
+      if(direction=="lewo"){
+        if(slajd>1){
+          slajd--;
+        }else{
+          slajd=10;
+        }
+      }
+      let karuzela=document.querySelector(".karuzela");
+      karuzela.innerHTML="<img src ='karuzela"+slajd+".jpg'/>";
+    }
+  </script>
 </body>
 </html>

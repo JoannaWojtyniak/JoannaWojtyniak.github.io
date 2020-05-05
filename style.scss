@@ -282,18 +282,18 @@ body{
             }
         } 
         .kontener{
+            display: flex;
             .cofnij{
-                display: flex;
+                
                 flex:1;
                 font-size: 10rem;
                 color:white;
             }
             .karuzela{
-                display: flex;
+                
                 flex:8;
             }
             .dalej{
-                display: flex;
                 flex:1;
                 font-size: 10rem;
                 color:white;

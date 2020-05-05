@@ -385,10 +385,13 @@ body .projects .tytul h1 {
   margin: 0;
 }
 
-body .projects .kontener .cofnij {
+body .projects .kontener {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+body .projects .kontener .cofnij {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
@@ -397,18 +400,12 @@ body .projects .kontener .cofnij {
 }
 
 body .projects .kontener .karuzela {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-flex: 8;
       -ms-flex: 8;
           flex: 8;
 }
 
 body .projects .kontener .dalej {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
