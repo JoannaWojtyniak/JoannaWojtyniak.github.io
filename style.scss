@@ -6,27 +6,30 @@ body{
         display: flex;
         justify-content: space-evenly;
         background-color: black;
+        height:70vh;
+        padding-top:10vh;
+        align-items: center;
+        padding: 5%;
         .kabel{
-            position: absolute;
-            margin-right: 305vh;
-           margin-top: 38vh;
+           flex:3;
+           img{
+               width:100%;
+           }
         }
         .metka{
             background-color: gray;
             height:20vh;
             width:10vh;
-            position: absolute;
-            margin-left: 150vh;
-            margin-top: 35vh;
+           flex:1;
         }
 
         .tablet{
+            flex:8;
             background-color: #303030;
             width:65%;
             height:70vh;
             display: flex;
             align-items: center;
-            margin-top:10vh;
             border-radius: 3%;
             padding-left: 3%;
             padding-right: 5%; 
@@ -77,6 +80,7 @@ body{
                         width:10vh;
                         border-radius: 50%;
                         display: flex;
+                        z-index: 10;
                         }
             
                     }    

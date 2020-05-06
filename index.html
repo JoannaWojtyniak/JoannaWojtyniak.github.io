@@ -12,20 +12,20 @@
     <div class="kabel">
       <img src="kabel.png">
     </div>
-    <div class="metka"></div>
     <div class="tablet">
         <div class="container"> 
             <div class="button1"></div>
             <div class="button2"></div>
             <div class="undermB"> 
-                <div class="mainButton"></div> 
+                <div class="mainButton" onclick='switchOn()'></div> 
             </div>  
             <div class="button3"></div>
             <div class="button4"></div>
         </div> 
-        <div class="ekran1" onclick="switchOn('wlaczony')"></div> 
-        <div class="ekran2" onclick="switchOn('wylaczony')"><p>Portfolio <br/> Joanna&nbsp;Wojtyniak</p></div>
+        <div class="ekran1"></div> 
+        <div class="ekran2"><p>Portfolio <br/> Joanna&nbsp;Wojtyniak</p></div>
      </div>
+     <div class="metka"></div>
   </header>  
   <header class="menu">
     <div class="pen">
@@ -90,14 +90,14 @@
   <script>
     var slajd=1;
     function karuzela(direction){
-      if(direction=="wlaczony"){
+      if(direction=="prawo"){
         if(slajd <10){
           slajd++;
         }else{
           slajd=1;
         }
       }
-      if(direction=="wylaczony"){
+      if(direction=="lewo"){
         if(slajd>1){
           slajd--;
         }else{
@@ -108,22 +108,22 @@
       karuzela.innerHTML="<img src ='karuzela"+slajd+".jpg'/>";
     }
     karuzela();
-    var switch=1;
-    function switchOn(screen){
-      if(screen<2){
-        switch++;
-      }else{
-        switch=1;
-      }
-      if(screen>1){
-        switch--;
-      }else{
-        switch=2;
-      }
-      let switchOn=document.querySelector(".ekrany");
-      switchOn.innerHTML="<a href='.ekran"+switch+"'/>";
-      switchOn.innerHTML="<a href='.ekran"+switch+"'/>";
+    
+    var switchX=0;
+    function switchOn(){
+      let ekran1 = document.querySelector(".ekran1");
+      let ekran2 = document.querySelector(".ekran2");
+        if(switchX == 1){
+          switchX = 0;
+          ekran1.style.display="none";
+          ekran2.style.display="flex";
+        }else{
+          switchX = 1;
+          ekran1.style.display="flex";
+          ekran2.style.display="none";
+        }
     }
+    switchOn();
   </script>
 </body>
 </html>
