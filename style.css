@@ -233,6 +233,18 @@ body .menu .pen .menuB .omnie {
           align-items: center;
 }
 
+body .menu .pen .menuB .omnie a {
+  text-decoration: none;
+}
+
+body .menu .pen .menuB .omnie a:link {
+  color: white;
+}
+
+body .menu .pen .menuB .omnie a:visited {
+  color: white;
+}
+
 body .menu .pen .menuB .projekty {
   background-color: #202020;
   border: 0.5vh solid #0f0f0f;
@@ -253,6 +265,18 @@ body .menu .pen .menuB .projekty {
           align-items: center;
 }
 
+body .menu .pen .menuB .projekty a {
+  text-decoration: none;
+}
+
+body .menu .pen .menuB .projekty a:link {
+  color: white;
+}
+
+body .menu .pen .menuB .projekty a:visited {
+  color: white;
+}
+
 body .menu .pen .menuB .kontakt {
   background-color: #202020;
   border: 0.5vh solid #0f0f0f;
@@ -271,6 +295,18 @@ body .menu .pen .menuB .kontakt {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+body .menu .pen .menuB .kontakt a {
+  text-decoration: none;
+}
+
+body .menu .pen .menuB .kontakt a:link {
+  color: white;
+}
+
+body .menu .pen .menuB .kontakt a:visited {
+  color: white;
 }
 
 body .aboutme {
@@ -451,6 +487,24 @@ body .projects .kontener .dalej {
       -ms-flex: 1;
           flex: 1;
   font-size: 10rem;
+  color: white;
+}
+
+body .contact {
+  background-color: black;
+  text-align: center;
+  padding-top: 50vh;
+  padding-bottom: 40vh;
+}
+
+body .contact h1 {
+  font-size: 3rem;
+  color: white;
+  margin: 0;
+}
+
+body .contact p {
+  font-size: 1.5rem;
   color: white;
 }
 /*# sourceMappingURL=style.css.map */
