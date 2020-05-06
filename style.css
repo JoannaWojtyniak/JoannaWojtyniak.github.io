@@ -503,6 +503,11 @@ body .contact1 h1 {
   margin: 0;
 }
 
+body .contact1 i {
+  color: white;
+  font-size: 5rem;
+}
+
 body .contact1 p {
   font-size: 1.5rem;
   color: white;
