@@ -4,12 +4,12 @@ body{
     font-family: 'Work Sans', sans-serif;
     .obrazek{
         display: flex;
-        justify-content: space-evenly;
+
         background-color: black;
-        height:70vh;
+        height:80vh;
         padding-top:10vh;
         align-items: center;
-        padding: 5%;
+        padding-right:15%;
         .kabel{
            flex:3;
            img{
@@ -19,15 +19,13 @@ body{
         .metka{
             background-color: gray;
             height:20vh;
-            width:10vh;
-           flex:1;
+            flex:0.75;
         }
 
         .tablet{
             flex:8;
             background-color: #303030;
-            width:65%;
-            height:70vh;
+            height:100%;
             display: flex;
             align-items: center;
             border-radius: 3%;
@@ -56,6 +54,7 @@ body{
             font-size: 3rem;
 
         }
+        
         .container{
             display: flex;
             flex:1;
@@ -81,6 +80,12 @@ body{
                         border-radius: 50%;
                         display: flex;
                         z-index: 10;
+                        }
+                        .mainButton:hover{
+                            background-color: #1d1d1d;
+                        }
+                        .mainButton:active{
+                            background-color:#111111;
                         }
             
                     }    
@@ -128,53 +133,52 @@ body{
         
         .pen{
             display: flex;
+            padding-top:1%;
             justify-content: center;
-            padding-top: 3vh;
             position: relative;
-            padding-bottom: 3.5vh;
-            text-align: center;
+            padding-bottom: 1%;
             color:white;
             font-size: rem;
-            .omnie{
-                background-color:#202020 ;
-                border:0.5vh solid rgb(15, 15, 15); 
-                height: 6vh;
-                width:20vh; 
-                border-radius:10vh;
-                margin-top: 2vh;
-                position: absolute;
+            align-items: center;
+            .menuB{
                 display: flex;
-                justify-content: space-evenly;
-                margin-left: -40vh;
-                align-items: center;
-             }  
-             .projekty{
-                background-color:#202020 ;
-                border:0.5vh solid rgb(15, 15, 15); 
-                height: 6vh;
-                width:20vh; 
-                border-radius:10vh;
-                margin-top: 2vh;
                 position: absolute;
-                display: flex;
-                justify-content:space-evenly;
-                margin-left: 7vh;
-                align-items: center;
+                .omnie{
+                    background-color:#202020 ;
+                    border:0.5vh solid rgb(15, 15, 15); 
+                    height: 6vh;
+                    width:20vh; 
+                    border-radius:10vh;
+                    display: flex;
+                    justify-content: space-evenly;
+                    flex:1;
+                    align-items: center;
+                }  
+                .projekty{
+                    background-color:#202020 ;
+                    border:0.5vh solid rgb(15, 15, 15); 
+                    height: 6vh;
+                    width:20vh; 
+                    border-radius:10vh;
+                    flex:1; 
+                    display: flex;
+                    justify-content:space-evenly;
+                    align-items: center;
+                    
+                } 
+                .kontakt{
+                    background-color:#202020 ;
+                    border:0.5vh solid rgb(15, 15, 15); 
+                    height: 6vh;
+                    width:20vh; 
+                    border-radius:10vh;
+                    flex:1;
+                    display: flex;
+                    justify-content: space-evenly;
                 
-             } 
-             .kontakt{
-                background-color:#202020 ;
-                border:0.5vh solid rgb(15, 15, 15); 
-                height: 6vh;
-                width:20vh; 
-                border-radius:10vh;
-                margin-top: 2vh;
-                position: absolute;
-                display: flex;
-                justify-content: space-evenly;
-                margin-left: 55vh;
-                align-items: center;
-             }         
+                    align-items: center;
+                }    
+            }         
         }
      } 
    .aboutme{

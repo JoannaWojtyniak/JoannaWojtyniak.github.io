@@ -12,38 +12,45 @@ body .obrazek {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
   background-color: black;
+  height: 80vh;
+  padding-top: 10vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-right: 15%;
 }
 
 body .obrazek .kabel {
-  position: absolute;
-  margin-right: 305vh;
-  margin-top: 38vh;
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+}
+
+body .obrazek .kabel img {
+  width: 100%;
 }
 
 body .obrazek .metka {
   background-color: gray;
   height: 20vh;
-  width: 10vh;
-  position: absolute;
-  margin-left: 150vh;
-  margin-top: 35vh;
+  -webkit-box-flex: 0.75;
+      -ms-flex: 0.75;
+          flex: 0.75;
 }
 
 body .obrazek .tablet {
+  -webkit-box-flex: 8;
+      -ms-flex: 8;
+          flex: 8;
   background-color: #303030;
-  width: 65%;
-  height: 70vh;
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 10vh;
   border-radius: 3%;
   padding-left: 3%;
   padding-right: 5%;
@@ -128,6 +135,15 @@ body .obrazek .tablet .container .undermB .mainButton {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  z-index: 10;
+}
+
+body .obrazek .tablet .container .undermB .mainButton:hover {
+  background-color: #1d1d1d;
+}
+
+body .obrazek .tablet .container .undermB .mainButton:active {
+  background-color: #111111;
 }
 
 body .obrazek .tablet .container .button1 {
@@ -177,72 +193,81 @@ body .menu .pen {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-top: 1%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-top: 3vh;
   position: relative;
-  padding-bottom: 3.5vh;
-  text-align: center;
+  padding-bottom: 1%;
   color: white;
   font-size: rem;
-}
-
-body .menu .pen .omnie {
-  background-color: #202020;
-  border: 0.5vh solid #0f0f0f;
-  height: 6vh;
-  width: 20vh;
-  border-radius: 10vh;
-  margin-top: 2vh;
-  position: absolute;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  margin-left: -40vh;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-body .menu .pen .projekty {
+body .menu .pen .menuB {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+}
+
+body .menu .pen .menuB .omnie {
   background-color: #202020;
   border: 0.5vh solid #0f0f0f;
   height: 6vh;
   width: 20vh;
   border-radius: 10vh;
-  margin-top: 2vh;
-  position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  margin-left: 7vh;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-body .menu .pen .kontakt {
+body .menu .pen .menuB .projekty {
   background-color: #202020;
   border: 0.5vh solid #0f0f0f;
   height: 6vh;
   width: 20vh;
   border-radius: 10vh;
-  margin-top: 2vh;
-  position: absolute;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  margin-left: 55vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .menu .pen .menuB .kontakt {
+  background-color: #202020;
+  border: 0.5vh solid #0f0f0f;
+  height: 6vh;
+  width: 20vh;
+  border-radius: 10vh;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
