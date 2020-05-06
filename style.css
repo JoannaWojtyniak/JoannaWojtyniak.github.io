@@ -309,28 +309,28 @@ body .menu .pen .menuB .kontakt a:visited {
   color: white;
 }
 
-body .aboutme {
+body .aboutme1 {
   background-color: #6C767E;
   padding-top: 20vh;
 }
 
-body .aboutme .title {
+body .aboutme1 .title {
   text-align: center;
   font-size: 2.5rem;
   color: white;
 }
 
-body .aboutme .title h1 {
+body .aboutme1 .title h1 {
   margin: 0;
 }
 
-body .aboutme .kontener {
+body .aboutme1 .kontener {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-body .aboutme .kontener .text {
+body .aboutme1 .kontener .text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -344,7 +344,7 @@ body .aboutme .kontener .text {
   font-size: 1.5rem;
 }
 
-body .aboutme .kontener .text .zainteresowania {
+body .aboutme1 .kontener .text .zainteresowania {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -356,7 +356,7 @@ body .aboutme .kontener .text .zainteresowania {
   font-size: 0.85rem;
 }
 
-body .aboutme .kontener .text .zainteresowania .buttonZ {
+body .aboutme1 .kontener .text .zainteresowania .buttonZ {
   background-color: #202020;
   border: 0.5vh solid #0f0f0f;
   height: 8vh;
@@ -364,7 +364,7 @@ body .aboutme .kontener .text .zainteresowania .buttonZ {
   border-radius: 10vh;
 }
 
-body .aboutme .kontener .text .zainteresowania .buttonZ1 {
+body .aboutme1 .kontener .text .zainteresowania .buttonZ1 {
   background-color: #202020;
   border: 0.5vh solid #0f0f0f;
   height: 8vh;
@@ -372,7 +372,7 @@ body .aboutme .kontener .text .zainteresowania .buttonZ1 {
   border-radius: 10vh;
 }
 
-body .aboutme .kontener .text .znajomosc .first {
+body .aboutme1 .kontener .text .znajomosc .first {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -382,7 +382,7 @@ body .aboutme .kontener .text .znajomosc .first {
   padding-bottom: 5vh;
 }
 
-body .aboutme .kontener .text .znajomosc .first .button1 {
+body .aboutme1 .kontener .text .znajomosc .first .button1 {
   background-color: #202020;
   border: 0.5vh solid #0f0f0f;
   height: 8vh;
@@ -390,7 +390,7 @@ body .aboutme .kontener .text .znajomosc .first .button1 {
   border-radius: 10vh;
 }
 
-body .aboutme .kontener .text .znajomosc .first .button2 {
+body .aboutme1 .kontener .text .znajomosc .first .button2 {
   background-color: #202020;
   border: 0.5vh solid #0f0f0f;
   height: 8vh;
@@ -398,7 +398,7 @@ body .aboutme .kontener .text .znajomosc .first .button2 {
   border-radius: 10vh;
 }
 
-body .aboutme .kontener .text .znajomosc .second {
+body .aboutme1 .kontener .text .znajomosc .second {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -408,7 +408,7 @@ body .aboutme .kontener .text .znajomosc .second {
   padding-bottom: 10vh;
 }
 
-body .aboutme .kontener .text .znajomosc .second .button3 {
+body .aboutme1 .kontener .text .znajomosc .second .button3 {
   background-color: #202020;
   border: 0.5vh solid #0f0f0f;
   height: 8vh;
@@ -416,7 +416,7 @@ body .aboutme .kontener .text .znajomosc .second .button3 {
   border-radius: 10vh;
 }
 
-body .aboutme .kontener .text .znajomosc .second .button4 {
+body .aboutme1 .kontener .text .znajomosc .second .button4 {
   background-color: #202020;
   border: 0.5vh solid #0f0f0f;
   height: 8vh;
@@ -424,7 +424,7 @@ body .aboutme .kontener .text .znajomosc .second .button4 {
   border-radius: 10vh;
 }
 
-body .aboutme .kontener .picture {
+body .aboutme1 .kontener .picture {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -439,35 +439,35 @@ body .aboutme .kontener .picture {
           align-items: center;
 }
 
-body .aboutme .kontener .picture .zdjecie {
+body .aboutme1 .kontener .picture .zdjecie {
   background-image: url(zdjecie.jpg);
   height: 300px;
   width: 300px;
   border-radius: 50%;
 }
 
-body .projects {
+body .projects1 {
   background-color: #6C767E;
 }
 
-body .projects .tytul {
+body .projects1 .tytul {
   color: white;
   font-size: 2.5rem;
   text-align: center;
 }
 
-body .projects .tytul h1 {
+body .projects1 .tytul h1 {
   margin: 0;
   padding-bottom: 8vh;
 }
 
-body .projects .kontener {
+body .projects1 .kontener {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-body .projects .kontener .cofnij {
+body .projects1 .kontener .cofnij {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
@@ -475,14 +475,14 @@ body .projects .kontener .cofnij {
   color: white;
 }
 
-body .projects .kontener .karuzela {
+body .projects1 .kontener .karuzela {
   -webkit-box-flex: 8;
       -ms-flex: 8;
           flex: 8;
   text-align: center;
 }
 
-body .projects .kontener .dalej {
+body .projects1 .kontener .dalej {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
@@ -490,20 +490,20 @@ body .projects .kontener .dalej {
   color: white;
 }
 
-body .contact {
+body .contact1 {
   background-color: black;
   text-align: center;
   padding-top: 50vh;
   padding-bottom: 40vh;
 }
 
-body .contact h1 {
+body .contact1 h1 {
   font-size: 3rem;
   color: white;
   margin: 0;
 }
 
-body .contact p {
+body .contact1 p {
   font-size: 1.5rem;
   color: white;
 }
