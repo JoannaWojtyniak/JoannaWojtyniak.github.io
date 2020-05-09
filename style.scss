@@ -1,358 +1,376 @@
 *{box-sizing: border-box;}
 body{
-    margin:0;
-    font-family: 'Work Sans', sans-serif;
+margin:0;
+font-family: 'Work Sans', sans-serif;
     .obrazek{
-        display: flex;
-
-        background-color: black;
-        height:80vh;
-        padding-top:10vh;
-        align-items: center;
-        padding-right:15%;
-        .kabel{
-           flex:3;
-           img{
-               width:100%;
-           }
-        }
-        .metka{
-            background-color: gray;
-            height:20vh;
-            flex:0.75;
-        }
-
-        .tablet{
-            flex:8;
-            background-color: #303030;
-            height:100%;
             display: flex;
-            align-items: center;
-            border-radius: 3%;
-            padding-left: 3%;
-            padding-right: 5%; 
-       
-       .ekran1{
-            background-color: #111111;
-            height: 70%;
-            display: flex;
-            align-items: center;
-            flex:4;
-            border-radius: 3%;  
-            
-        }
-        .ekran2{
-            background-color: #ECFAFA;
-            height: 70%;
-            display: flex;
-            align-items: center;
-            flex:4;
-            border-radius: 3%; 
-            color:black;
-            text-align: center;
-            justify-content: center;
-            font-size: 3rem;
 
-        }
+            background-color: black;
+            height:80vh;
+            padding-top:10vh;
+            align-items: center;
+            padding-right:15%;
+            .kabel{
+            flex:3;
+            img{
+                width:100%;
+            }
+            }
+            .metka{
+                background-color: gray;
+                height:20vh;
+                flex:0.75;
+            }
+
+            .tablet{
+                flex:8;
+                background-color: #303030;
+                height:100%;
+                display: flex;
+                align-items: center;
+                border-radius: 3%;
+                padding-left: 3%;
+                padding-right: 5%; 
         
-        .container{
-            display: flex;
-            flex:1;
-            flex-direction: column;
-            align-items: center;
-            margin-right:3vh ;
+        .ekran1{
+                background-color: #111111;
+                height: 80%;
+                display: flex;
+                align-items: center;
+                flex:4;
+                border-radius: 3%;  
+                
+            }
+            .ekran2{
+                background-color: rgb(225, 248, 255);
+                height: 80%;
+                display: flex;
+                align-items: center;
+                flex:4;
+                border-radius: 3%; 
+                text-align: center;
+                justify-content: center;
+                
+            }
             
-           
-                    .undermB{
-                        background-color: #1E1D1D;
-                        border:0.5vh rgb(87, 87, 87) solid;
-                        height:15vh;
-                        width:15vh;
-                        border-radius: 50%;
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
-                        .mainButton{         
-                        background-color: #393939;
-                        border:0.5vh solid #100F0F;
-                        height:10vh;
-                        width:10vh;
-                        border-radius: 50%;
-                        display: flex;
-                        z-index: 10;
-                        }
-                        .mainButton:hover{
-                            background-color: #1d1d1d;
-                        }
-                        .mainButton:active{
-                            background-color:#111111;
-                        }
+            .container{
+                display: flex;
+                flex:1;
+                flex-direction: column;
+                align-items: center;
+                margin-right:3vh ;
+                
             
-                    }    
-                .button1{
-                   background-color:#202020 ;
-                   border:0.5vh solid rgb(15, 15, 15); 
-                   height: 6vh;
-                   width:20vh; 
-                   border-radius:10vh;
-                   margin-bottom: 2vh;
-                }  
-                .button2{
+                        .undermB{
+                            background-color: #1E1D1D;
+                            border:0.5vh rgb(87, 87, 87) solid;
+                            height:15vh;
+                            width:15vh;
+                            border-radius: 50%;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            .mainButton{         
+                            background-color: #393939;
+                            border:0.5vh solid #100F0F;
+                            height:10vh;
+                            width:10vh;
+                            border-radius: 50%;
+                            display: flex;
+                            z-index: 10;
+                            }
+                            .mainButton:hover{
+                                background-color: #1d1d1d;
+                            }
+                            .mainButton:active{
+                                background-color:#111111;
+                            }
+                
+                        }    
+                    .button1{
                     background-color:#202020 ;
                     border:0.5vh solid rgb(15, 15, 15); 
                     height: 6vh;
                     width:20vh; 
                     border-radius:10vh;
                     margin-bottom: 2vh;
-                 }  
-                 .button3{
-                    background-color:#202020 ;
-                   border:0.5vh solid rgb(15, 15, 15); 
-                   height: 6vh;
-                   width:20vh; 
-                   border-radius:10vh;
-                   margin-top: 2vh;
-                 }  
-                 .button4{
-                    background-color:#202020 ;
+                    }  
+                    .button2{
+                        background-color:#202020 ;
+                        border:0.5vh solid rgb(15, 15, 15); 
+                        height: 6vh;
+                        width:20vh; 
+                        border-radius:10vh;
+                        margin-bottom: 2vh;
+                    }  
+                    .button3{
+                        background-color:#202020 ;
                     border:0.5vh solid rgb(15, 15, 15); 
                     height: 6vh;
                     width:20vh; 
                     border-radius:10vh;
                     margin-top: 2vh;
-                 }    
-        }
+                    }  
+                    .button4{
+                        background-color:#202020 ;
+                        border:0.5vh solid rgb(15, 15, 15); 
+                        height: 6vh;
+                        width:20vh; 
+                        border-radius:10vh;
+                        margin-top: 2vh;
+                    }    
+            }
 
-        } 
-        
-    }
-     .menu{
-        background-color: black;
-        position: sticky;
-        top:0;
-        
-        .pen{
-            display: flex;
-            padding-top:1%;
-            justify-content: center;
-            position: relative;
-            padding-bottom: 1%;
-            color:white;
-            font-size: rem;
-            align-items: center;
-            .menuB{
-                display: flex;
-                position: absolute;
-                .omnie{
-                    background-color:#202020 ;
-                    border:0.5vh solid rgb(15, 15, 15); 
-                    height: 6vh;
-                    width:20vh; 
-                    border-radius:10vh;
-                    display: flex;
-                    justify-content: space-evenly;
-                    flex:1;
-                    align-items: center;
-                    a{
-                        text-decoration: none;
-                    }
-                    a:link{
-                        color:white;
-                    }
-                    a:visited{
-                        color:white;
-                    }
-                }  
-                .projekty{
-                    background-color:#202020 ;
-                    border:0.5vh solid rgb(15, 15, 15); 
-                    height: 6vh;
-                    width:20vh; 
-                    border-radius:10vh;
-                    flex:1; 
-                    display: flex;
-                    justify-content:space-evenly;
-                    align-items: center;
-                    a{
-                        text-decoration: none;
-                    }
-                    a:link{
-                        color:white;
-                    }
-                    a:visited{
-                        color:white;
-                    }
-                    
-                } 
-                .kontakt{
-                    background-color:#202020 ;
-                    border:0.5vh solid rgb(15, 15, 15); 
-                    height: 6vh;
-                    width:20vh; 
-                    border-radius:10vh;
-                    flex:1;
-                    display: flex;
-                    justify-content: space-evenly;
-                    align-items: center;
-                    a{
-                        text-decoration: none;
-                    }
-                    a:link{
-                        color:white;
-                    }
-                    a:visited{
-                        color:white;
-                    }
-                }    
-            }         
-        }
-     } 
-   .aboutme1{
-       background-color: #6C767E;
-       padding-top:20vh;
-      
-       .title{
-           text-align: center;
-           font-size:2.5rem;
-           color: white;
-           h1{
-               margin: 0;
-           }
-       }
-       .kontener{
-           display: flex;
-            .text{
-                display: flex;
-                flex:1;
-                flex-direction: column;
-                font-size: 1.5rem;
-                .zainteresowania{
-                    display: flex;
-                    justify-content: space-evenly;
-                    text-align: center;
-                    color:white;
-                    font-size: 0.85rem;
-                    .buttonZ{
-                        background-color:#202020 ;
-                        border:0.5vh solid rgb(15, 15, 15); 
-                        height: 8vh;
-                        width:30vh; 
-                        border-radius:10vh;
-                    }
-                    .buttonZ1{
-                        background-color:#202020 ;
-                        border:0.5vh solid rgb(15, 15, 15); 
-                        height: 8vh;
-                        width:30vh; 
-                        border-radius:10vh;
-                    }
-                }
-                .znajomosc{
-                    .first{
-                        display: flex;
-                        justify-content: space-evenly;
-                        padding-bottom: 5vh;
-                        .button1{
-                            background-color:#202020 ;
-                            border:0.5vh solid rgb(15, 15, 15); 
-                            height: 8vh;
-                            width:30vh; 
-                            border-radius:10vh;
-                        } 
-                        .button2{
-                            background-color:#202020 ;
-                            border:0.5vh solid rgb(15, 15, 15); 
-                            height: 8vh;
-                            width:30vh; 
-                            border-radius:10vh;
-                        }
-                    }
-                    .second{
-                        display: flex;
-                        justify-content: space-evenly;
-                        padding-bottom: 10vh;
-                        .button3{
-                            background-color:#202020 ;
-                            border:0.5vh solid rgb(15, 15, 15); 
-                            height: 8vh;
-                            width:30vh; 
-                            border-radius:10vh;
-                        } 
-                        .button4{
-                            background-color:#202020 ;
-                            border:0.5vh solid rgb(15, 15, 15); 
-                            height: 8vh;
-                            width:30vh; 
-                            border-radius:10vh;
-                        }
-                    }
-                }
-                
-            }
-           .picture{
-            display: flex;
-            flex:1;
-            justify-content: center;
-            align-items: center;
-                .zdjecie{
-                background-image: url(zdjecie.jpg);
-                height:300px;
-                width:300px;
-                border-radius: 50%;
-                }
+            } 
             
-           }
-       }
-   } 
-   .projects1{
-    background-color: #6C767E;
-        .tytul{
-            color:white;
-            font-size: 2.5rem;
-            text-align: center;
-            h1{
-            margin: 0;
-            padding-bottom: 8vh;
+    }
+    .menu{
+            background-color: black;
+            position: sticky;
+            top:0;
+            
+            .pen{
+                display: flex;
+                padding-top:1%;
+                justify-content: center;
+                position: relative;
+                padding-bottom: 1%;
+                color:white;
+                font-size: rem;
+                align-items: center;
+                .menuB{
+                    display: flex;
+                    position: absolute;
+                    a{
+                        .start{
+                            background-color:#202020 ;
+                            border:0.5vh solid rgb(15, 15, 15); 
+                            height: 6vh;
+                            width:16vh; 
+                            border-radius:10vh;
+                            display: flex;
+                            justify-content: space-evenly;
+                            flex:1;
+                            align-items: center;
+
+                        }
+                    }
+                    a{
+                    text-decoration: none;
+                        .omnie{
+                            background-color:#202020 ;
+                            border:0.5vh solid rgb(15, 15, 15); 
+                            height: 6vh;
+                            width:16vh; 
+                            border-radius:10vh;
+                            display: flex;
+                            justify-content: space-evenly;
+                            flex:1;
+                            align-items: center;
+                        }
+                    } 
+                    a:link{
+                        color:white;
+                    }
+                    a:visited{
+                        color:white;
+                    } 
+
+
+            
+                    
+                        a{
+                            text-decoration: none;
+                            .projekty{
+                                background-color:#202020 ;
+                                border:0.5vh solid rgb(15, 15, 15); 
+                                height: 6vh;
+                                width:16vh; 
+                                border-radius:10vh;
+                                flex:1; 
+                                display: flex;
+                                justify-content:space-evenly;
+                                align-items: center;
+                            }
+                        }
+                        a:link{
+                            color:white;
+                        }
+                        a:visited{
+                            color:white;
+                        }
+                        a{
+                            text-decoration: none;
+                            .kontakt{
+                                background-color:#202020 ;
+                                border:0.5vh solid rgb(15, 15, 15); 
+                                height: 6vh;
+                                width:16vh; 
+                                border-radius:10vh;
+                                flex:1;
+                                display: flex;
+                                justify-content: space-evenly;
+                                align-items: center;
+                            }
+                        }
+                        a:link{
+                            color:white;
+                        }
+                        a:visited{
+                            color:white;
+                        }
+                    
+                }         
             }
-        } 
+            
+    } 
+    .aboutme1{
+        background-color: #6C767E;
+        padding-top:20vh;
+        
+        .title{
+            text-align: center;
+            font-size:2.5rem;
+            color: white;
+            h1{
+                margin: 0;
+            }
+        }
         .kontener{
             display: flex;
-            .cofnij{ 
+                .text{
+                    display: flex;
+                    flex:1;
+                    flex-direction: column;
+                    font-size: 1.5rem;
+                    .zainteresowania{
+                        display: flex;
+                        justify-content: space-evenly;
+                        text-align: center;
+                        color:white;
+                        font-size: 0.85rem;
+                        .buttonZ{
+                            background-color:#202020 ;
+                            border:0.5vh solid rgb(15, 15, 15); 
+                            height: 8vh;
+                            width:30vh; 
+                            border-radius:10vh;
+                        }
+                        .buttonZ1{
+                            background-color:#202020 ;
+                            border:0.5vh solid rgb(15, 15, 15); 
+                            height: 8vh;
+                            width:30vh; 
+                            border-radius:10vh;
+                        }
+                    }
+                    .znajomosc{
+                        .first{
+                            display: flex;
+                            justify-content: space-evenly;
+                            padding-bottom: 5vh;
+                            .button1{
+                                background-color:#202020 ;
+                                border:0.5vh solid rgb(15, 15, 15); 
+                                height: 8vh;
+                                width:30vh; 
+                                border-radius:10vh;
+                            } 
+                            .button2{
+                                background-color:#202020 ;
+                                border:0.5vh solid rgb(15, 15, 15); 
+                                height: 8vh;
+                                width:30vh; 
+                                border-radius:10vh;
+                            }
+                        }
+                        .second{
+                            display: flex;
+                            justify-content: space-evenly;
+                            padding-bottom: 10vh;
+                            .button3{
+                                background-color:#202020 ;
+                                border:0.5vh solid rgb(15, 15, 15); 
+                                height: 8vh;
+                                width:30vh; 
+                                border-radius:10vh;
+                            } 
+                            .button4{
+                                background-color:#202020 ;
+                                border:0.5vh solid rgb(15, 15, 15); 
+                                height: 8vh;
+                                width:30vh; 
+                                border-radius:10vh;
+                            }
+                        }
+                    }
+                    
+                }
+            .picture{
+                display: flex;
                 flex:1;
-                font-size: 10rem;
+                justify-content: center;
+                align-items: center;
+                    .zdjecie{
+                    background-image: url(zdjecie.jpg);
+                    height:300px;
+                    width:300px;
+                    border-radius: 50%;
+                    }
+                
+            }
+        }
+    } 
+    .projects1{
+        background-color: #6C767E;
+            .tytul{
                 color:white;
-            }
-            .karuzela{
-                flex:8;
-                text-align:center;
-            }
-            .dalej{
-                flex:1;
-                font-size: 10rem;
-                color:white;
-            }
-        } 
-   }  
-   .contact1{
-    background-color: black;
-    text-align: center;
-    padding-top:50vh;
-    padding-bottom:40vh;
-       h1{
-           font-size: 3rem;
-           color: white;
-           margin:0;
-       }
-       i{
-           color:white;
-           font-size: 5rem;
-       }
-       p{
-        font-size: 1.5rem;
-        color: white;  
+                font-size: 2.5rem;
+                text-align: center;
+                h1{
+                margin: 0;
+                padding-bottom: 8vh;
+                }
+            } 
+            .kontener{
+                display: flex;
+                .cofnij{ 
+                    flex:1;
+                    font-size: 10rem;
+                    color:white;
+                }
+                .karuzela{
+                    flex:8;
+                    text-align:center;
+                }
+                .dalej{
+                    flex:1;
+                    font-size: 10rem;
+                    color:white;
+                }
+            } 
         
-       }
-   }    
+    }
+    .contact1{
+        background-color: black;
+        text-align: center;
+        padding-top:50vh;
+        padding-bottom:40vh;
+        h1{
+            font-size: 3rem;
+            color: white;
+            margin:0;
+        }
+        i{
+            color:white;
+            font-size: 5rem;
+        }
+        p{
+            font-size: 1.5rem;
+            color: white;  
+            
+        }
+    }    
 }
 //@media only screen and(max-width:1024px){
    // .tablet{
