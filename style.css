@@ -231,6 +231,14 @@ body .menu .pen .menuB a .start {
           align-items: center;
 }
 
+body .menu .pen .menuB a .start:hover {
+  background-color: #161616;
+}
+
+body .menu .pen .menuB a .start:active {
+  background-color: #0e0d0d;
+}
+
 body .menu .pen .menuB a {
   text-decoration: none;
 }
@@ -253,6 +261,14 @@ body .menu .pen .menuB a .omnie {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+body .menu .pen .menuB a .omnie:hover {
+  background-color: #161616;
+}
+
+body .menu .pen .menuB a .omnie:active {
+  background-color: #0e0d0d;
 }
 
 body .menu .pen .menuB a:link {
@@ -287,6 +303,14 @@ body .menu .pen .menuB a .projekty {
           align-items: center;
 }
 
+body .menu .pen .menuB a .projekty:hover {
+  background-color: #161616;
+}
+
+body .menu .pen .menuB a .projekty:active {
+  background-color: #0e0d0d;
+}
+
 body .menu .pen .menuB a:link {
   color: white;
 }
@@ -319,6 +343,14 @@ body .menu .pen .menuB a .kontakt {
           align-items: center;
 }
 
+body .menu .pen .menuB a .kontakt:hover {
+  background-color: #161616;
+}
+
+body .menu .pen .menuB a .kontakt:active {
+  background-color: #0e0d0d;
+}
+
 body .menu .pen .menuB a:link {
   color: white;
 }
@@ -329,7 +361,7 @@ body .menu .pen .menuB a:visited {
 
 body .aboutme1 {
   background-color: #6C767E;
-  padding-top: 20vh;
+  padding-top: 15vh;
 }
 
 body .aboutme1 .title {
@@ -466,23 +498,25 @@ body .aboutme1 .kontener .picture .zdjecie {
 
 body .projects1 {
   background-color: #6C767E;
+  padding-top: 18vh;
 }
 
 body .projects1 .tytul {
   color: white;
   font-size: 2.5rem;
   text-align: center;
+  padding-bottom: 5vh;
 }
 
 body .projects1 .tytul h1 {
   margin: 0;
-  padding-bottom: 8vh;
 }
 
 body .projects1 .kontener {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-bottom: 3vh;
 }
 
 body .projects1 .kontener .cofnij {
@@ -511,8 +545,8 @@ body .projects1 .kontener .dalej {
 body .contact1 {
   background-color: black;
   text-align: center;
-  padding-top: 50vh;
-  padding-bottom: 40vh;
+  padding-top: 35vh;
+  padding-bottom: 25vh;
 }
 
 body .contact1 h1 {

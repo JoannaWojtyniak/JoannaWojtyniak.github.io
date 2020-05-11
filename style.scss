@@ -154,29 +154,39 @@ font-family: 'Work Sans', sans-serif;
                             align-items: center;
 
                         }
-                    }
-                    a{
-                    text-decoration: none;
-                        .omnie{
-                            background-color:#202020 ;
-                            border:0.5vh solid rgb(15, 15, 15); 
-                            height: 6vh;
-                            width:16vh; 
-                            border-radius:10vh;
-                            display: flex;
-                            justify-content: space-evenly;
-                            flex:1;
-                            align-items: center;
+                        .start:hover{
+                            background-color: #161616;
                         }
-                    } 
-                    a:link{
-                        color:white;
+                        .start:active{
+                            background-color:  #0e0d0d ;
+                        }
                     }
-                    a:visited{
-                        color:white;
-                    } 
-
-
+                        a{
+                        text-decoration: none;
+                            .omnie{
+                                background-color:#202020 ;
+                                border:0.5vh solid rgb(15, 15, 15); 
+                                height: 6vh;
+                                width:16vh; 
+                                border-radius:10vh;
+                                display: flex;
+                                justify-content: space-evenly;
+                                flex:1;
+                                align-items: center;
+                            }
+                            .omnie:hover{
+                                background-color: #161616;
+                            }
+                            .omnie:active{
+                                background-color: #0e0d0d;
+                            }
+                        } 
+                        a:link{
+                            color:white;
+                        }
+                        a:visited{
+                            color:white;
+                        } 
             
                     
                         a{
@@ -191,6 +201,12 @@ font-family: 'Work Sans', sans-serif;
                                 display: flex;
                                 justify-content:space-evenly;
                                 align-items: center;
+                            }
+                            .projekty:hover{
+                                background-color: #161616;
+                            }
+                            .projekty:active{
+                                background-color: #0e0d0d;
                             }
                         }
                         a:link{
@@ -212,6 +228,12 @@ font-family: 'Work Sans', sans-serif;
                                 justify-content: space-evenly;
                                 align-items: center;
                             }
+                            .kontakt:hover{
+                                background-color: #161616;
+                            }
+                            .kontakt:active{
+                                background-color: #0e0d0d;
+                            }
                         }
                         a:link{
                             color:white;
@@ -226,7 +248,7 @@ font-family: 'Work Sans', sans-serif;
     } 
     .aboutme1{
         background-color: #6C767E;
-        padding-top:20vh;
+        padding-top:15vh;
         
         .title{
             text-align: center;
@@ -323,17 +345,19 @@ font-family: 'Work Sans', sans-serif;
     } 
     .projects1{
         background-color: #6C767E;
+        padding-top: 18vh;
             .tytul{
                 color:white;
                 font-size: 2.5rem;
                 text-align: center;
+                padding-bottom: 5vh;
                 h1{
                 margin: 0;
-                padding-bottom: 8vh;
                 }
             } 
             .kontener{
                 display: flex;
+                padding-bottom: 3vh;
                 .cofnij{ 
                     flex:1;
                     font-size: 10rem;
@@ -354,8 +378,8 @@ font-family: 'Work Sans', sans-serif;
     .contact1{
         background-color: black;
         text-align: center;
-        padding-top:50vh;
-        padding-bottom:40vh;
+        padding-top:35vh;
+        padding-bottom:25vh;
         h1{
             font-size: 3rem;
             color: white;
