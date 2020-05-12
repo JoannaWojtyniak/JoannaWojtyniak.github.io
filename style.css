@@ -603,6 +603,12 @@ body .contact1 p {
     display: block !important;
     text-align: center;
   }
+  .container .znajomosc {
+    display: block;
+  }
+  .container .zainteresowania {
+    display: block;
+  }
   .kontener {
     display: none !important;
   }
