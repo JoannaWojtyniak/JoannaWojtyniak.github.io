@@ -8,7 +8,6 @@ body {
   margin: 0;
   font-family: 'Work Sans', sans-serif;
   width: 100%;
-  background-image: url("triangular/triangular/triangular.png");
 }
 
 body .obrazek {
@@ -368,6 +367,7 @@ body .portfolioStart {
 
 body .aboutme1 {
   padding-top: 15vh;
+  background-image: url("triangular/triangular/triangular.png");
 }
 
 body .aboutme1 .title {
@@ -505,6 +505,7 @@ body .aboutme1 .container .picture .zdjecie {
 
 body .projects1 {
   padding-top: 18vh;
+  background-image: url("triangular/triangular/triangular.png");
 }
 
 body .projects1 .tytul {

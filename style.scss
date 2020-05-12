@@ -4,10 +4,8 @@ body{
 margin:0;
 font-family: 'Work Sans', sans-serif;
 width:100%;
-background-image: url("triangular/triangular/triangular.png");
     .obrazek{
             display: flex;
-
             background-color: black;
             height:80vh;
             padding-top:10vh;
@@ -254,6 +252,7 @@ background-image: url("triangular/triangular/triangular.png");
     }
     .aboutme1{
         padding-top:15vh;
+        background-image: url("triangular/triangular/triangular.png");
         
         .title{
             text-align: center;
@@ -352,6 +351,7 @@ background-image: url("triangular/triangular/triangular.png");
     
     .projects1{
         padding-top: 18vh;
+        background-image: url("triangular/triangular/triangular.png");
             .tytul{
                 color:white;
                 font-size: 2.5rem;
