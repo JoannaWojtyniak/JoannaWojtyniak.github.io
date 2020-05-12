@@ -6,6 +6,7 @@
 body {
   margin: 0;
   font-family: 'Work Sans', sans-serif;
+  width: 100%;
 }
 
 body .obrazek {
@@ -583,10 +584,16 @@ body .contact1 p {
     -webkit-box-flex: 1 !important;
         -ms-flex: 1 !important;
             flex: 1 !important;
+  }
+  .portfolioStart img {
+    height: 100% !important;
+    width: 100% !important;
     -webkit-box-pack: center !important;
         -ms-flex-pack: center !important;
             justify-content: center !important;
-    background-color: black !important;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
   }
   .container {
     width: 100% !important;

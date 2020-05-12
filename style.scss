@@ -2,6 +2,7 @@
 body{
 margin:0;
 font-family: 'Work Sans', sans-serif;
+width:100%;
     .obrazek{
             display: flex;
 
@@ -346,6 +347,7 @@ font-family: 'Work Sans', sans-serif;
             }
         }
     } 
+    
     .projects1{
         background-color: #6C767E;
         padding-top: 18vh;
@@ -369,6 +371,7 @@ font-family: 'Work Sans', sans-serif;
                 .karuzela{
                     flex:8;
                     text-align:center;
+                    
                 }
                 .dalej{
                     flex:1;
@@ -411,13 +414,19 @@ font-family: 'Work Sans', sans-serif;
        // background-image: url("ekran.gif")!important;
     display: flex!important;
     flex:1!important;
-    justify-content: center!important;
-    background-color: black!important;
+    
+    img{
+        height:100%!important;
+        width: 100%!important;
+        justify-content: center!important;
+        display:flex!important;
+    }
         
     }
     .container{
         width:100%!important;
         display: block!important;
     }
+    
     
 }
