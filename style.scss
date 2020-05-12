@@ -396,14 +396,8 @@ font-family: 'Work Sans', sans-serif;
         }
     }    
 }
-//@media only screen and(max-width:1024px){
-   // .tablet{
-     //   display:none;
-       // width:90%!important;
-       // height:30vh!important;
-      //  .undermB{
-      //      height:5vh!important;
-       //     width:5vh!important;  
-       // }
-  //  }
-//}
+@media only screen and(max-width:1024px){
+    .obrazek{
+       display:none!important;
+    }
+}

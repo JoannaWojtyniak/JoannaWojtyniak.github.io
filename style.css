@@ -564,4 +564,10 @@ body .contact1 p {
   font-size: 1.5rem;
   color: white;
 }
+
+@media only screen and (max-width: 1024px) {
+  .obrazek {
+    display: none !important;
+  }
+}
 /*# sourceMappingURL=style.css.map */
