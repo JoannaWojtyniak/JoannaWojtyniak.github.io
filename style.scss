@@ -1,8 +1,10 @@
+/* Background pattern from Toptal Subtle Patterns */
 *{box-sizing: border-box;}
 body{
 margin:0;
 font-family: 'Work Sans', sans-serif;
 width:100%;
+background-image: url("triangular/triangular/triangular.png");
     .obrazek{
             display: flex;
 
@@ -251,7 +253,6 @@ width:100%;
         display: none;
     }
     .aboutme1{
-        background-color: #6C767E;
         padding-top:15vh;
         
         .title{
@@ -264,6 +265,7 @@ width:100%;
         }
         .container{
             display: flex;
+            text-align: center;
                 .text{
                     display: flex;
                     flex:1;
@@ -349,7 +351,6 @@ width:100%;
     } 
     
     .projects1{
-        background-color: #6C767E;
         padding-top: 18vh;
             .tytul{
                 color:white;
