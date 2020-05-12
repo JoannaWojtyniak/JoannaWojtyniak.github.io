@@ -359,6 +359,10 @@ body .menu .pen .menuB a:visited {
   color: white;
 }
 
+body .portfolioStart {
+  display: none;
+}
+
 body .aboutme1 {
   background-color: #6C767E;
   padding-top: 15vh;
@@ -374,13 +378,13 @@ body .aboutme1 .title h1 {
   margin: 0;
 }
 
-body .aboutme1 .kontener {
+body .aboutme1 .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-body .aboutme1 .kontener .text {
+body .aboutme1 .container .text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -394,7 +398,7 @@ body .aboutme1 .kontener .text {
   font-size: 1.5rem;
 }
 
-body .aboutme1 .kontener .text .zainteresowania {
+body .aboutme1 .container .text .zainteresowania {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -406,7 +410,7 @@ body .aboutme1 .kontener .text .zainteresowania {
   font-size: 0.85rem;
 }
 
-body .aboutme1 .kontener .text .zainteresowania .buttonZ {
+body .aboutme1 .container .text .zainteresowania .buttonZ {
   background-color: #202020;
   border: 0.5vh solid #0f0f0f;
   height: 8vh;
@@ -414,7 +418,7 @@ body .aboutme1 .kontener .text .zainteresowania .buttonZ {
   border-radius: 10vh;
 }
 
-body .aboutme1 .kontener .text .zainteresowania .buttonZ1 {
+body .aboutme1 .container .text .zainteresowania .buttonZ1 {
   background-color: #202020;
   border: 0.5vh solid #0f0f0f;
   height: 8vh;
@@ -422,7 +426,7 @@ body .aboutme1 .kontener .text .zainteresowania .buttonZ1 {
   border-radius: 10vh;
 }
 
-body .aboutme1 .kontener .text .znajomosc .first {
+body .aboutme1 .container .text .znajomosc .first {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -432,7 +436,7 @@ body .aboutme1 .kontener .text .znajomosc .first {
   padding-bottom: 5vh;
 }
 
-body .aboutme1 .kontener .text .znajomosc .first .button1 {
+body .aboutme1 .container .text .znajomosc .first .button1 {
   background-color: #202020;
   border: 0.5vh solid #0f0f0f;
   height: 8vh;
@@ -440,7 +444,7 @@ body .aboutme1 .kontener .text .znajomosc .first .button1 {
   border-radius: 10vh;
 }
 
-body .aboutme1 .kontener .text .znajomosc .first .button2 {
+body .aboutme1 .container .text .znajomosc .first .button2 {
   background-color: #202020;
   border: 0.5vh solid #0f0f0f;
   height: 8vh;
@@ -448,7 +452,7 @@ body .aboutme1 .kontener .text .znajomosc .first .button2 {
   border-radius: 10vh;
 }
 
-body .aboutme1 .kontener .text .znajomosc .second {
+body .aboutme1 .container .text .znajomosc .second {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -458,7 +462,7 @@ body .aboutme1 .kontener .text .znajomosc .second {
   padding-bottom: 10vh;
 }
 
-body .aboutme1 .kontener .text .znajomosc .second .button3 {
+body .aboutme1 .container .text .znajomosc .second .button3 {
   background-color: #202020;
   border: 0.5vh solid #0f0f0f;
   height: 8vh;
@@ -466,7 +470,7 @@ body .aboutme1 .kontener .text .znajomosc .second .button3 {
   border-radius: 10vh;
 }
 
-body .aboutme1 .kontener .text .znajomosc .second .button4 {
+body .aboutme1 .container .text .znajomosc .second .button4 {
   background-color: #202020;
   border: 0.5vh solid #0f0f0f;
   height: 8vh;
@@ -474,7 +478,7 @@ body .aboutme1 .kontener .text .znajomosc .second .button4 {
   border-radius: 10vh;
 }
 
-body .aboutme1 .kontener .picture {
+body .aboutme1 .container .picture {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -489,7 +493,7 @@ body .aboutme1 .kontener .picture {
           align-items: center;
 }
 
-body .aboutme1 .kontener .picture .zdjecie {
+body .aboutme1 .container .picture .zdjecie {
   background-image: url(zdjecie.jpg);
   height: 300px;
   width: 300px;
@@ -568,6 +572,25 @@ body .contact1 p {
 @media only screen and (max-width: 1024px) {
   .obrazek {
     display: none !important;
+  }
+  .menu {
+    display: none !important;
+  }
+  .portfolioStart {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-flex: 1 !important;
+        -ms-flex: 1 !important;
+            flex: 1 !important;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    background-color: black !important;
+  }
+  .container {
+    width: 100% !important;
+    display: block !important;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -246,6 +246,9 @@ font-family: 'Work Sans', sans-serif;
             }
             
     } 
+    .portfolioStart{
+        display: none;
+    }
     .aboutme1{
         background-color: #6C767E;
         padding-top:15vh;
@@ -258,7 +261,7 @@ font-family: 'Work Sans', sans-serif;
                 margin: 0;
             }
         }
-        .kontener{
+        .container{
             display: flex;
                 .text{
                     display: flex;
@@ -400,4 +403,21 @@ font-family: 'Work Sans', sans-serif;
     .obrazek{
        display:none!important;
     }
+    .menu{
+        display: none!important;
+        
+    }
+    .portfolioStart{
+       // background-image: url("ekran.gif")!important;
+    display: flex!important;
+    flex:1!important;
+    justify-content: center!important;
+    background-color: black!important;
+        
+    }
+    .container{
+        width:100%!important;
+        display: block!important;
+    }
+    
 }
