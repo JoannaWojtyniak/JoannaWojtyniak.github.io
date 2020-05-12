@@ -413,17 +413,17 @@ body .aboutme1 .container .text .zainteresowania {
 
 body .aboutme1 .container .text .zainteresowania .buttonZ {
   background-color: #202020;
-  border: 0.5vh solid #0f0f0f;
-  height: 8vh;
-  width: 30vh;
+  border: 3px solid #0f0f0f;
+  height: 50px;
+  width: 30%;
   border-radius: 10vh;
 }
 
 body .aboutme1 .container .text .zainteresowania .buttonZ1 {
   background-color: #202020;
-  border: 0.5vh solid #0f0f0f;
-  height: 8vh;
-  width: 30vh;
+  border: 3px solid #0f0f0f;
+  height: 50px;
+  width: 30%;
   border-radius: 10vh;
 }
 
@@ -439,17 +439,17 @@ body .aboutme1 .container .text .znajomosc .first {
 
 body .aboutme1 .container .text .znajomosc .first .button1 {
   background-color: #202020;
-  border: 0.5vh solid #0f0f0f;
-  height: 8vh;
-  width: 30vh;
+  border: 3px solid #0f0f0f;
+  height: 50px;
+  width: 30%;
   border-radius: 10vh;
 }
 
 body .aboutme1 .container .text .znajomosc .first .button2 {
   background-color: #202020;
-  border: 0.5vh solid #0f0f0f;
-  height: 8vh;
-  width: 30vh;
+  border: 3px solid #0f0f0f;
+  height: 50px;
+  width: 30%;
   border-radius: 10vh;
 }
 
@@ -465,17 +465,17 @@ body .aboutme1 .container .text .znajomosc .second {
 
 body .aboutme1 .container .text .znajomosc .second .button3 {
   background-color: #202020;
-  border: 0.5vh solid #0f0f0f;
-  height: 8vh;
-  width: 30vh;
+  border: 3px solid #0f0f0f;
+  height: 50px;
+  width: 30%;
   border-radius: 10vh;
 }
 
 body .aboutme1 .container .text .znajomosc .second .button4 {
   background-color: #202020;
-  border: 0.5vh solid #0f0f0f;
-  height: 8vh;
-  width: 30vh;
+  border: 3px solid #0f0f0f;
+  height: 50px;
+  width: 30%;
   border-radius: 10vh;
 }
 
@@ -603,11 +603,76 @@ body .contact1 p {
     display: block !important;
     text-align: center;
   }
-  .container .znajomosc {
-    display: block;
-  }
   .container .zainteresowania {
-    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    text-align: center;
+    color: white;
+    font-size: 0.85rem;
+  }
+  .container .zainteresowania .buttonZ {
+    background-color: #202020;
+    border: 3px solid #0f0f0f;
+    height: 50px;
+    width: 45% !important;
+    border-radius: 10vh;
+  }
+  .container .zainteresowania .buttonZ1 {
+    background-color: #202020;
+    border: 3px solid #0f0f0f;
+    height: 50px;
+    width: 45% !important;
+    border-radius: 10vh;
+  }
+  .container .znajomosc .first {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    padding-bottom: 5vh;
+  }
+  .container .znajomosc .first .button1 {
+    background-color: #202020;
+    border: 3px solid #0f0f0f;
+    height: 50px;
+    width: 45% !important;
+    border-radius: 10vh;
+  }
+  .container .znajomosc .first .button2 {
+    background-color: #202020;
+    border: 3px solid #0f0f0f;
+    height: 50px;
+    width: 45% !important;
+    border-radius: 10vh;
+  }
+  .container .znajomosc .second {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    padding-bottom: 10vh;
+  }
+  .container .znajomosc .second .button3 {
+    background-color: #202020;
+    border: 3px solid #0f0f0f;
+    height: 50px;
+    width: 45% !important;
+    border-radius: 10vh;
+  }
+  .container .znajomosc .second .button4 {
+    background-color: #202020;
+    border: 3px solid #0f0f0f;
+    height: 50px;
+    width: 45% !important;
+    border-radius: 10vh;
   }
   .kontener {
     display: none !important;
