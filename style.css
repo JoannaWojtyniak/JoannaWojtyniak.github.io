@@ -599,5 +599,8 @@ body .contact1 p {
     width: 100% !important;
     display: block !important;
   }
+  .kontener {
+    display: none !important;
+  }
 }
 /*# sourceMappingURL=style.css.map */
