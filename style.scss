@@ -255,16 +255,15 @@ width:100%;
         display: none;
     }
     .aboutme1{
-        padding-top:15vh;
+        padding-top:3%;
         background-image: url("triangular/triangular/triangular.png");
         
         .title{
             text-align: center;
-            font-size:2.5rem;
+            font-size:4rem;
             color: white;
-            h1{
-                margin: 0;
-            }
+            margin-bottom: -3%;
+    
         }
         .container{
             display: flex;
@@ -274,6 +273,9 @@ width:100%;
                     flex:1;
                     flex-direction: column;
                     font-size: 1.5rem;
+                    h2{
+                        margin:0;
+                    }
                     .zainteresowania{
                         display: flex;
                         justify-content: space-evenly;
@@ -299,7 +301,7 @@ width:100%;
                         .first{
                             display: flex;
                             justify-content: space-evenly;
-                            padding-bottom: 5vh;
+                            padding-bottom: 3%;
                             .button1{
                                 background-color:#202020 ;
                                 border:3px solid rgb(15, 15, 15); 
@@ -348,34 +350,37 @@ width:100%;
                     width:300px;
                     border-radius: 50%;
                     }
+                   
                 
             }
         }
     } 
     
     .projects1{
-        padding-top: 15vh;
+        padding-top: 7%;
         background-image: url("triangular/triangular/triangular.png");
             .tytul{
-                color:white;
-                font-size: 2.5rem;
-                text-align: center;
-                padding-bottom: 5vh;
-                h1{
-                margin: 0;
+                p{
+                    color:white;
+                    font-size: 4rem;
+                    text-align: center;
+                    margin:0;
+                    padding-bottom: 1.5%;
                 }
+                
             } 
             .kontener{
                 display: flex;
-                padding-bottom: 3vh;
                 height:auto;
                 width:100%;
+                padding-bottom: 5%;
                 .cofnij{ 
                     flex:1;
                     font-size: 10rem;
                     color:white;
                     display: flex;
                     align-items: center;
+                    justify-content: center;
                 }
                 .karuzela{
                     flex:8;
@@ -389,6 +394,7 @@ width:100%;
                     
                 }
                 .dalej{
+                    justify-content: center;
                     flex:1;
                     font-size: 10rem;
                     color:white;
@@ -402,12 +408,13 @@ width:100%;
     .contact1{
         background-color: black;
         text-align: center;
-        padding-top:35vh;
-        padding-bottom:25vh;
-        h1{
-            font-size: 3rem;
+        padding-top:15%;
+        padding-bottom:10%;
+        .nazwaKontakt{
+            font-size: 4rem;
             color: white;
             margin:0;
+            
         }
         i{
             color:white;

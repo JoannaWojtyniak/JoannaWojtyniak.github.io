@@ -370,18 +370,15 @@ body .portfolioStart {
 }
 
 body .aboutme1 {
-  padding-top: 15vh;
+  padding-top: 3%;
   background-image: url("triangular/triangular/triangular.png");
 }
 
 body .aboutme1 .title {
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 4rem;
   color: white;
-}
-
-body .aboutme1 .title h1 {
-  margin: 0;
+  margin-bottom: -3%;
 }
 
 body .aboutme1 .container {
@@ -403,6 +400,10 @@ body .aboutme1 .container .text {
       -ms-flex-direction: column;
           flex-direction: column;
   font-size: 1.5rem;
+}
+
+body .aboutme1 .container .text h2 {
+  margin: 0;
 }
 
 body .aboutme1 .container .text .zainteresowania {
@@ -440,7 +441,7 @@ body .aboutme1 .container .text .znajomosc .first {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  padding-bottom: 5vh;
+  padding-bottom: 3%;
 }
 
 body .aboutme1 .container .text .znajomosc .first .button1 {
@@ -508,28 +509,25 @@ body .aboutme1 .container .picture .zdjecie {
 }
 
 body .projects1 {
-  padding-top: 15vh;
+  padding-top: 7%;
   background-image: url("triangular/triangular/triangular.png");
 }
 
-body .projects1 .tytul {
+body .projects1 .tytul p {
   color: white;
-  font-size: 2.5rem;
+  font-size: 4rem;
   text-align: center;
-  padding-bottom: 5vh;
-}
-
-body .projects1 .tytul h1 {
   margin: 0;
+  padding-bottom: 1.5%;
 }
 
 body .projects1 .kontener {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-bottom: 3vh;
   height: auto;
   width: 100%;
+  padding-bottom: 5%;
 }
 
 body .projects1 .kontener .cofnij {
@@ -544,6 +542,9 @@ body .projects1 .kontener .cofnij {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 body .projects1 .kontener .karuzela {
@@ -559,6 +560,9 @@ body .projects1 .kontener .karuzela img {
 }
 
 body .projects1 .kontener .dalej {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
@@ -575,12 +579,12 @@ body .projects1 .kontener .dalej {
 body .contact1 {
   background-color: black;
   text-align: center;
-  padding-top: 35vh;
-  padding-bottom: 25vh;
+  padding-top: 15%;
+  padding-bottom: 10%;
 }
 
-body .contact1 h1 {
-  font-size: 3rem;
+body .contact1 .nazwaKontakt {
+  font-size: 4rem;
   color: white;
   margin: 0;
 }
