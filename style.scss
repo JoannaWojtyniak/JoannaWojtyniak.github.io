@@ -49,8 +49,12 @@ width:100%;
                 align-items: center;
                 flex:4;
                 border-radius: 3%; 
-                text-align: center;
                 justify-content: center;
+                img{
+                    
+                    height:90%;
+                    width:auto;
+                }
                 
             }
             
@@ -350,7 +354,7 @@ width:100%;
     } 
     
     .projects1{
-        padding-top: 18vh;
+        padding-top: 15vh;
         background-image: url("triangular/triangular/triangular.png");
             .tytul{
                 color:white;
@@ -364,6 +368,8 @@ width:100%;
             .kontener{
                 display: flex;
                 padding-bottom: 3vh;
+                height:auto;
+                width:100%;
                 .cofnij{ 
                     flex:1;
                     font-size: 10rem;
@@ -372,6 +378,12 @@ width:100%;
                 .karuzela{
                     flex:8;
                     text-align:center;
+                    img{
+                        height:auto;
+                        width:60%;
+                    }
+            
+                    
                     
                 }
                 .dalej{
@@ -382,6 +394,7 @@ width:100%;
             } 
         
     }
+    
     .contact1{
         background-color: black;
         text-align: center;
@@ -495,9 +508,19 @@ width:100%;
         
     }
        
-    
-    
-    .kontener{
-        display: none!important;
+    .karuzela{
+        flex:10!important;
+        text-align:center;
+        img{
+            height:auto!important;
+            width:90%!important;
+        }
     }
-}
+    .cofnij{
+        font-size: 5rem!important;
+    }
+    .dalej{
+        font-size: 5rem!important;
+    }
+}  
+    

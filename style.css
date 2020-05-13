@@ -86,10 +86,14 @@ body .obrazek .tablet .ekran2 {
       -ms-flex: 4;
           flex: 4;
   border-radius: 3%;
-  text-align: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+body .obrazek .tablet .ekran2 img {
+  height: 90%;
+  width: auto;
 }
 
 body .obrazek .tablet .container {
@@ -504,7 +508,7 @@ body .aboutme1 .container .picture .zdjecie {
 }
 
 body .projects1 {
-  padding-top: 18vh;
+  padding-top: 15vh;
   background-image: url("triangular/triangular/triangular.png");
 }
 
@@ -524,6 +528,8 @@ body .projects1 .kontener {
   display: -ms-flexbox;
   display: flex;
   padding-bottom: 3vh;
+  height: auto;
+  width: 100%;
 }
 
 body .projects1 .kontener .cofnij {
@@ -539,6 +545,11 @@ body .projects1 .kontener .karuzela {
       -ms-flex: 8;
           flex: 8;
   text-align: center;
+}
+
+body .projects1 .kontener .karuzela img {
+  height: auto;
+  width: 60%;
 }
 
 body .projects1 .kontener .dalej {
@@ -676,8 +687,21 @@ body .contact1 p {
     width: 45% !important;
     border-radius: 10vh;
   }
-  .kontener {
-    display: none !important;
+  .karuzela {
+    -webkit-box-flex: 10 !important;
+        -ms-flex: 10 !important;
+            flex: 10 !important;
+    text-align: center;
+  }
+  .karuzela img {
+    height: auto !important;
+    width: 90% !important;
+  }
+  .cofnij {
+    font-size: 5rem !important;
+  }
+  .dalej {
+    font-size: 5rem !important;
   }
 }
 /*# sourceMappingURL=style.css.map */

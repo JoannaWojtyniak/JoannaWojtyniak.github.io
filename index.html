@@ -30,7 +30,7 @@
             <div class="button4"></div>
         </div> 
         <div class="ekran1"></div> 
-        <div class="ekran2"><img src="ekran.gif"/></div>
+        <div class="ekran2"><img src="screen.gif"/></div>
         
      </div>
      <div class="metka"></div>
@@ -56,7 +56,7 @@
       <img src="pen.png"/>  
     </div>
   </header>
-  <div class="portfolioStart"><img src="ekran.gif"/></div>
+  <div class="portfolioStart"><img src="screen.gif"/></div>
   <article>
     <div id="aboutme"></div>
     <div class="aboutme1">
@@ -100,7 +100,9 @@
         <div class="tytul"><h1>Projekty</h1></div>
         <div class="kontener">
           <div class = "cofnij" onclick="karuzela('lewo')">‹</div> 
-          <div class= "karuzela"></div>
+          <div class= "karuzela">
+            
+          </div>
           <div class ="dalej" onclick="karuzela('prawo')">›</div>
         </div>
     </div>    
@@ -131,7 +133,7 @@
         }
       }
       let karuzela=document.querySelector(".karuzela");
-      karuzela.innerHTML="<img src ='karuzela"+slajd+".jpg'/>";
+      karuzela.innerHTML="<img src ='carousel"+slajd+".jpg'/>";
     }
     karuzela();
     
