@@ -374,6 +374,8 @@ width:100%;
                     flex:1;
                     font-size: 10rem;
                     color:white;
+                    display: flex;
+                    align-items: center;
                 }
                 .karuzela{
                     flex:8;
@@ -390,6 +392,8 @@ width:100%;
                     flex:1;
                     font-size: 10rem;
                     color:white;
+                    display: flex;
+                    align-items: center;
                 }
             } 
         
@@ -431,12 +435,19 @@ width:100%;
        // background-image: url("ekran.gif")!important;
     display: flex!important;
     flex:1!important;
+    background-color: black;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left:5%;
+    padding-right:5%;
+    
     
     img{
         height:100%!important;
         width: 100%!important;
         justify-content: center!important;
         display:flex!important;
+        border: rgb(70, 70, 70) solid 5px;
     }
         
     }
@@ -507,20 +518,28 @@ width:100%;
         }
         
     }
-       
-    .karuzela{
-        flex:10!important;
-        text-align:center;
-        img{
-            height:auto!important;
-            width:90%!important;
+    .projects1{
+        padding-top: 2vh!important;
+         
+        .karuzela{
+            flex:10!important;
+            text-align:center;
+            img{
+                height:auto!important;
+                width:90%!important;
+            }
         }
-    }
-    .cofnij{
-        font-size: 5rem!important;
-    }
-    .dalej{
-        font-size: 5rem!important;
-    }
+        .cofnij{
+            font-size: 5rem!important;
+            justify-content: center!important;
+            display: flex!important;
+        }
+        .dalej{
+            font-size: 5rem!important;
+            justify-content: center!important;
+            display: flex!important;
+        }
+    } 
+      
 }  
     
