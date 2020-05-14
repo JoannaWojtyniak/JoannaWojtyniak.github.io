@@ -369,6 +369,10 @@ body .portfolioStart {
   display: none;
 }
 
+body .menuR {
+  display: none;
+}
+
 body .aboutme1 {
   padding-top: 3%;
   background-image: url("triangular/triangular/triangular.png");
@@ -739,6 +743,52 @@ body .contact1 p {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
     display: flex !important;
+  }
+  .menuR {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: black !important;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+  }
+  .menuR p {
+    color: white !important;
+  }
+  .menuR a {
+    text-decoration: none;
+  }
+  .menuR a .kontaktR {
+    background-color: #202020 !important;
+    border: 0.5vh solid #0f0f0f !important;
+    height: 6vh !important;
+    width: 16vh !important;
+    border-radius: 10vh !important;
+    -webkit-box-flex: 1 !important;
+        -ms-flex: 1 !important;
+            flex: 1 !important;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: space-evenly !important;
+        -ms-flex-pack: space-evenly !important;
+            justify-content: space-evenly !important;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+  }
+  .menuR a .kontakt:hover {
+    background-color: #161616 !important;
+  }
+  .menuR a .kontakt:active {
+    background-color: #0e0d0d !important;
   }
 }
 /*# sourceMappingURL=style.css.map */
