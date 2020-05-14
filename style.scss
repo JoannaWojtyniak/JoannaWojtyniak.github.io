@@ -266,7 +266,7 @@ width:100%;
             font-size:4rem;
             color: white;
             margin-bottom: -3%;
-    
+           
         }
         .container{
             display: flex;
@@ -528,6 +528,12 @@ width:100%;
         }
         
     }
+    .aboutme1{
+        .title{
+            padding-top:0%!important;
+            margin-top: -10%;
+        }
+    }
     .projects1{
         padding-top: 2vh!important;
          
@@ -562,6 +568,40 @@ width:100%;
         }
         a{
             text-decoration: none;
+            .omnieR{
+                background-color:#202020!important ;
+                border:0.5vh solid rgb(15, 15, 15)!important; 
+                height: 6vh!important;
+                width:16vh!important; 
+                border-radius:10vh!important;
+                flex:1!important;
+                display: flex!important;
+                justify-content: space-evenly!important;
+                align-items: center!important;
+            }
+            .omnie:hover{
+                background-color: #161616!important;
+            }
+            .omnie:active{
+                background-color: #0e0d0d!important;
+            }
+            .projektyR{
+                background-color:#202020!important ;
+                border:0.5vh solid rgb(15, 15, 15)!important; 
+                height: 6vh!important;
+                width:16vh!important; 
+                border-radius:10vh!important;
+                flex:1!important;
+                display: flex!important;
+                justify-content: space-evenly!important;
+                align-items: center!important;
+            }
+            .projekty:hover{
+                background-color: #161616!important;
+            }
+            .projekty:active{
+                background-color: #0e0d0d!important;
+            }
             .kontaktR{
                 background-color:#202020!important ;
                 border:0.5vh solid rgb(15, 15, 15)!important; 
