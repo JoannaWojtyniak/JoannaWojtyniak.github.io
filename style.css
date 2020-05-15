@@ -642,6 +642,9 @@ body .contact1 p {
     display: block !important;
     text-align: center;
   }
+  .container .text {
+    padding-top: 50px !important;
+  }
   .container .zainteresowania {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -715,10 +718,14 @@ body .contact1 p {
   }
   .aboutme1 .title {
     padding-top: 0% !important;
-    margin-top: -10%;
+    margin-top: -1%;
   }
   .projects1 {
-    padding-top: 2vh !important;
+    padding-top: 45% !important;
+    padding-bottom: 43% !important;
+  }
+  .projects1 .tytul p {
+    padding-bottom: 10% !important;
   }
   .projects1 .karuzela {
     -webkit-box-flex: 10 !important;
@@ -748,6 +755,10 @@ body .contact1 p {
     display: -ms-flexbox !important;
     display: flex !important;
   }
+  .contact1 {
+    padding-top: 50% !important;
+    padding-bottom: 50% !important;
+  }
   .menuR {
     position: -webkit-sticky;
     position: sticky;
@@ -765,6 +776,7 @@ body .contact1 p {
   }
   .menuR p {
     color: white !important;
+    font-size: 1rem;
   }
   .menuR a {
     text-decoration: none;

@@ -465,6 +465,9 @@ width:100%;
         width:100%!important;
         display: block!important;
         text-align: center;
+        .text{
+            padding-top: 50px!important;
+        }
         .zainteresowania{
             display: flex;
             justify-content: space-evenly;
@@ -531,11 +534,17 @@ width:100%;
     .aboutme1{
         .title{
             padding-top:0%!important;
-            margin-top: -10%;
+            margin-top: -1%;
         }
     }
     .projects1{
-        padding-top: 2vh!important;
+        padding-top: 45%!important;
+        padding-bottom: 43%!important;
+        .tytul{
+            p{
+                padding-bottom: 10%!important;
+            }
+        }
          
         .karuzela{
             flex:10!important;
@@ -556,6 +565,10 @@ width:100%;
             display: flex!important;
         }
     } 
+    .contact1{
+        padding-top:50%!important;
+        padding-bottom:50%!important;
+    }
     .menuR{
         position: sticky;
         top: 0;
@@ -565,6 +578,7 @@ width:100%;
         align-items: center!important;
         p{
             color:white!important; 
+            font-size: 1rem;
         }
         a{
             text-decoration: none;
