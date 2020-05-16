@@ -419,7 +419,7 @@ body .aboutme1 .container .text .zainteresowania {
           justify-content: space-evenly;
   text-align: center;
   color: white;
-  font-size: 1rem;
+  font-size: 0.85rem;
 }
 
 body .aboutme1 .container .text .zainteresowania .buttonZ {
@@ -564,10 +564,9 @@ body .aboutme1 .container .picture {
           align-items: center;
 }
 
-body .aboutme1 .container .picture .zdjecie {
-  background-image: url(zdjecie.jpg);
-  height: 300px;
-  width: 300px;
+body .aboutme1 .container .picture .zdjecie img {
+  height: auto;
+  width: 40%;
   border-radius: 50%;
 }
 
@@ -701,6 +700,11 @@ body .contact1 p {
     display: block !important;
     text-align: center;
   }
+  .container .zdjecie img {
+    height: auto !important;
+    width: 50% !important;
+    border-radius: 50% !important;
+  }
   .container .text {
     padding-top: 50px !important;
   }
@@ -713,7 +717,7 @@ body .contact1 p {
             justify-content: space-evenly;
     text-align: center;
     color: white;
-    font-size: 0.85rem;
+    font-size: 0.75rem !important;
   }
   .container .zainteresowania .buttonZ {
     background-color: #202020;
@@ -737,6 +741,7 @@ body .contact1 p {
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
     padding-bottom: 5vh;
+    font-size: 0.75rem !important;
   }
   .container .znajomosc .first .button1 {
     background-color: #202020;
@@ -760,6 +765,7 @@ body .contact1 p {
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
     padding-bottom: 10vh;
+    font-size: 0.75rem !important;
   }
   .container .znajomosc .second .button3 {
     background-color: #202020;
