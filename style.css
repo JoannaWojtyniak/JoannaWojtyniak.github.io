@@ -419,7 +419,7 @@ body .aboutme1 .container .text .zainteresowania {
           justify-content: space-evenly;
   text-align: center;
   color: white;
-  font-size: 0.85rem;
+  font-size: 1rem;
 }
 
 body .aboutme1 .container .text .zainteresowania .buttonZ {
@@ -428,6 +428,15 @@ body .aboutme1 .container .text .zainteresowania .buttonZ {
   height: 50px;
   width: 30%;
   border-radius: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 body .aboutme1 .container .text .zainteresowania .buttonZ1 {
@@ -436,6 +445,15 @@ body .aboutme1 .container .text .zainteresowania .buttonZ1 {
   height: 50px;
   width: 30%;
   border-radius: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 body .aboutme1 .container .text .znajomosc .first {
@@ -446,6 +464,8 @@ body .aboutme1 .container .text .znajomosc .first {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   padding-bottom: 3%;
+  color: white;
+  font-size: 0.85rem;
 }
 
 body .aboutme1 .container .text .znajomosc .first .button1 {
@@ -454,6 +474,15 @@ body .aboutme1 .container .text .znajomosc .first .button1 {
   height: 50px;
   width: 30%;
   border-radius: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 body .aboutme1 .container .text .znajomosc .first .button2 {
@@ -462,6 +491,15 @@ body .aboutme1 .container .text .znajomosc .first .button2 {
   height: 50px;
   width: 30%;
   border-radius: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 body .aboutme1 .container .text .znajomosc .second {
@@ -472,6 +510,9 @@ body .aboutme1 .container .text .znajomosc .second {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   padding-bottom: 10vh;
+  text-align: center;
+  color: white;
+  font-size: 0.85rem;
 }
 
 body .aboutme1 .container .text .znajomosc .second .button3 {
@@ -480,6 +521,15 @@ body .aboutme1 .container .text .znajomosc .second .button3 {
   height: 50px;
   width: 30%;
   border-radius: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 body .aboutme1 .container .text .znajomosc .second .button4 {
@@ -488,6 +538,15 @@ body .aboutme1 .container .text .znajomosc .second .button4 {
   height: 50px;
   width: 30%;
   border-radius: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 body .aboutme1 .container .picture {
@@ -721,8 +780,8 @@ body .contact1 p {
     margin-top: -1%;
   }
   .projects1 {
-    padding-top: 45% !important;
-    padding-bottom: 43% !important;
+    padding-top: 20% !important;
+    padding-bottom: 20% !important;
   }
   .projects1 .tytul p {
     padding-bottom: 10% !important;

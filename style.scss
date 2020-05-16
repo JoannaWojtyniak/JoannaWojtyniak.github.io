@@ -284,13 +284,16 @@ width:100%;
                         justify-content: space-evenly;
                         text-align: center;
                         color:white;
-                        font-size: 0.85rem;
+                        font-size: 1rem;
                         .buttonZ{
                             background-color:#202020 ;
                             border:3px solid rgb(15, 15, 15); 
                             height: 50px;
                             width:30%; 
                             border-radius:10vh;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
                         }
                         .buttonZ1{
                             background-color:#202020 ;
@@ -298,6 +301,9 @@ width:100%;
                             height: 50px;
                             width:30%; 
                             border-radius:10vh;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
                         }
                     }
                     .znajomosc{
@@ -305,12 +311,17 @@ width:100%;
                             display: flex;
                             justify-content: space-evenly;
                             padding-bottom: 3%;
+                            color:white;
+                            font-size: 0.85rem;
                             .button1{
                                 background-color:#202020 ;
                                 border:3px solid rgb(15, 15, 15); 
                                 height: 50px;
                                 width:30%; 
                                 border-radius:10vh;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
                             } 
                             .button2{
                                 background-color:#202020 ;
@@ -318,18 +329,27 @@ width:100%;
                                 height: 50px;
                                 width:30%; 
                                 border-radius:10vh;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
                             }
                         }
                         .second{
                             display: flex;
                             justify-content: space-evenly;
                             padding-bottom: 10vh;
+                            text-align: center;
+                            color:white;
+                            font-size: 0.85rem;
                             .button3{
                                 background-color:#202020 ;
                                 border:3px solid rgb(15, 15, 15); 
                                 height: 50px;
                                 width:30%; 
                                 border-radius:10vh;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
                             } 
                             .button4{
                                 background-color:#202020 ;
@@ -337,6 +357,9 @@ width:100%;
                                 height: 50px;
                                 width:30%; 
                                 border-radius:10vh;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
                             }
                         }
                     }
@@ -538,8 +561,8 @@ width:100%;
         }
     }
     .projects1{
-        padding-top: 45%!important;
-        padding-bottom: 43%!important;
+        padding-top: 20%!important;
+        padding-bottom: 20%!important;
         .tytul{
             p{
                 padding-bottom: 10%!important;
