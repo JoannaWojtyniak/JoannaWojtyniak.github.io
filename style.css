@@ -803,17 +803,14 @@ body .contact1 p {
   }
   .menuR p {
     color: white !important;
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   .menuR a {
     text-decoration: none;
   }
   .menuR a .omnieR {
-    background-color: #202020 !important;
-    border: 0.5vh solid #0f0f0f !important;
     height: 6vh !important;
     width: 16vh !important;
-    border-radius: 10vh !important;
     -webkit-box-flex: 1 !important;
         -ms-flex: 1 !important;
             flex: 1 !important;
@@ -826,19 +823,10 @@ body .contact1 p {
     -webkit-box-align: center !important;
         -ms-flex-align: center !important;
             align-items: center !important;
-  }
-  .menuR a .omnie:hover {
-    background-color: #161616 !important;
-  }
-  .menuR a .omnie:active {
-    background-color: #0e0d0d !important;
   }
   .menuR a .projektyR {
-    background-color: #202020 !important;
-    border: 0.5vh solid #0f0f0f !important;
     height: 6vh !important;
     width: 16vh !important;
-    border-radius: 10vh !important;
     -webkit-box-flex: 1 !important;
         -ms-flex: 1 !important;
             flex: 1 !important;
@@ -851,19 +839,10 @@ body .contact1 p {
     -webkit-box-align: center !important;
         -ms-flex-align: center !important;
             align-items: center !important;
-  }
-  .menuR a .projekty:hover {
-    background-color: #161616 !important;
-  }
-  .menuR a .projekty:active {
-    background-color: #0e0d0d !important;
   }
   .menuR a .kontaktR {
-    background-color: #202020 !important;
-    border: 0.5vh solid #0f0f0f !important;
     height: 6vh !important;
     width: 16vh !important;
-    border-radius: 10vh !important;
     -webkit-box-flex: 1 !important;
         -ms-flex: 1 !important;
             flex: 1 !important;
@@ -876,12 +855,6 @@ body .contact1 p {
     -webkit-box-align: center !important;
         -ms-flex-align: center !important;
             align-items: center !important;
-  }
-  .menuR a .kontakt:hover {
-    background-color: #161616 !important;
-  }
-  .menuR a .kontakt:active {
-    background-color: #0e0d0d !important;
   }
 }
 /*# sourceMappingURL=style.css.map */

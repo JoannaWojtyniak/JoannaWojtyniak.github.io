@@ -585,61 +585,37 @@ width:100%;
         align-items: center!important;
         p{
             color:white!important; 
-            font-size: 1rem;
+            font-size: 1.2rem;
         }
         a{
             text-decoration: none;
             .omnieR{
-                background-color:#202020!important ;
-                border:0.5vh solid rgb(15, 15, 15)!important; 
                 height: 6vh!important;
                 width:16vh!important; 
-                border-radius:10vh!important;
                 flex:1!important;
                 display: flex!important;
                 justify-content: space-evenly!important;
                 align-items: center!important;
             }
-            .omnie:hover{
-                background-color: #161616!important;
-            }
-            .omnie:active{
-                background-color: #0e0d0d!important;
-            }
+           
             .projektyR{
-                background-color:#202020!important ;
-                border:0.5vh solid rgb(15, 15, 15)!important; 
                 height: 6vh!important;
                 width:16vh!important; 
-                border-radius:10vh!important;
                 flex:1!important;
                 display: flex!important;
                 justify-content: space-evenly!important;
                 align-items: center!important;
             }
-            .projekty:hover{
-                background-color: #161616!important;
-            }
-            .projekty:active{
-                background-color: #0e0d0d!important;
-            }
+          
             .kontaktR{
-                background-color:#202020!important ;
-                border:0.5vh solid rgb(15, 15, 15)!important; 
                 height: 6vh!important;
                 width:16vh!important; 
-                border-radius:10vh!important;
                 flex:1!important;
                 display: flex!important;
                 justify-content: space-evenly!important;
                 align-items: center!important;
             }
-            .kontakt:hover{
-                background-color: #161616!important;
-            }
-            .kontakt:active{
-                background-color: #0e0d0d!important;
-            }
+           
         }
        
     }
