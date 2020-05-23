@@ -204,7 +204,8 @@ body .menu .pen {
   position: relative;
   padding-bottom: 1%;
   color: white;
-  font-size: rem;
+  font-size: 1.2rem;
+  font-weight: bold;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -218,10 +219,8 @@ body .menu .pen .menuB {
 }
 
 body .menu .pen .menuB a .start {
-  background-color: #202020;
-  border: 0.5vh solid #0f0f0f;
   height: 6vh;
-  width: 16vh;
+  width: 14vh;
   border-radius: 10vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -235,14 +234,6 @@ body .menu .pen .menuB a .start {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-body .menu .pen .menuB a .start:hover {
-  background-color: #161616;
-}
-
-body .menu .pen .menuB a .start:active {
-  background-color: #0e0d0d;
 }
 
 body .menu .pen .menuB a {
@@ -250,11 +241,8 @@ body .menu .pen .menuB a {
 }
 
 body .menu .pen .menuB a .omnie {
-  background-color: #202020;
-  border: 0.5vh solid #0f0f0f;
   height: 6vh;
   width: 16vh;
-  border-radius: 10vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -267,14 +255,6 @@ body .menu .pen .menuB a .omnie {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-body .menu .pen .menuB a .omnie:hover {
-  background-color: #161616;
-}
-
-body .menu .pen .menuB a .omnie:active {
-  background-color: #0e0d0d;
 }
 
 body .menu .pen .menuB a:link {
@@ -290,31 +270,20 @@ body .menu .pen .menuB a {
 }
 
 body .menu .pen .menuB a .projekty {
-  background-color: #202020;
-  border: 0.5vh solid #0f0f0f;
   height: 6vh;
   width: 16vh;
-  border-radius: 10vh;
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-body .menu .pen .menuB a .projekty:hover {
-  background-color: #161616;
-}
-
-body .menu .pen .menuB a .projekty:active {
-  background-color: #0e0d0d;
 }
 
 body .menu .pen .menuB a:link {
@@ -330,31 +299,20 @@ body .menu .pen .menuB a {
 }
 
 body .menu .pen .menuB a .kontakt {
-  background-color: #202020;
-  border: 0.5vh solid #0f0f0f;
   height: 6vh;
   width: 16vh;
-  border-radius: 10vh;
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-body .menu .pen .menuB a .kontakt:hover {
-  background-color: #161616;
-}
-
-body .menu .pen .menuB a .kontakt:active {
-  background-color: #0e0d0d;
 }
 
 body .menu .pen .menuB a:link {
@@ -786,7 +744,7 @@ body .contact1 p {
     margin-top: -1%;
   }
   .projects1 {
-    padding-top: 20% !important;
+    padding-top: 15% !important;
     padding-bottom: 20% !important;
   }
   .projects1 .tytul p {
@@ -821,8 +779,8 @@ body .contact1 p {
     display: flex !important;
   }
   .contact1 {
-    padding-top: 50% !important;
-    padding-bottom: 50% !important;
+    padding-top: 25% !important;
+    padding-bottom: 25% !important;
   }
   .menuR {
     position: -webkit-sticky;

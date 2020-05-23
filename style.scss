@@ -141,17 +141,17 @@ width:100%;
                 position: relative;
                 padding-bottom: 1%;
                 color:white;
-                font-size: rem;
+                font-size: 1.2rem;
+                font-weight: bold;
                 align-items: center;
                 .menuB{
                     display: flex;
                     position: absolute;
                     a{
                         .start{
-                            background-color:#202020 ;
-                            border:0.5vh solid rgb(15, 15, 15); 
+                            
                             height: 6vh;
-                            width:16vh; 
+                            width:14vh; 
                             border-radius:10vh;
                             display: flex;
                             justify-content: space-evenly;
@@ -159,32 +159,19 @@ width:100%;
                             align-items: center;
 
                         }
-                        .start:hover{
-                            background-color: #161616;
-                        }
-                        .start:active{
-                            background-color:  #0e0d0d ;
-                        }
+                        
                     }
                         a{
                         text-decoration: none;
                             .omnie{
-                                background-color:#202020 ;
-                                border:0.5vh solid rgb(15, 15, 15); 
                                 height: 6vh;
                                 width:16vh; 
-                                border-radius:10vh;
                                 display: flex;
                                 justify-content: space-evenly;
                                 flex:1;
                                 align-items: center;
                             }
-                            .omnie:hover{
-                                background-color: #161616;
-                            }
-                            .omnie:active{
-                                background-color: #0e0d0d;
-                            }
+                          
                         } 
                         a:link{
                             color:white;
@@ -197,22 +184,14 @@ width:100%;
                         a{
                             text-decoration: none;
                             .projekty{
-                                background-color:#202020 ;
-                                border:0.5vh solid rgb(15, 15, 15); 
                                 height: 6vh;
                                 width:16vh; 
-                                border-radius:10vh;
-                                flex:1; 
                                 display: flex;
-                                justify-content:space-evenly;
+                                justify-content: space-evenly;
+                                flex:1;
                                 align-items: center;
                             }
-                            .projekty:hover{
-                                background-color: #161616;
-                            }
-                            .projekty:active{
-                                background-color: #0e0d0d;
-                            }
+                          
                         }
                         a:link{
                             color:white;
@@ -223,22 +202,14 @@ width:100%;
                         a{
                             text-decoration: none;
                             .kontakt{
-                                background-color:#202020 ;
-                                border:0.5vh solid rgb(15, 15, 15); 
                                 height: 6vh;
                                 width:16vh; 
-                                border-radius:10vh;
-                                flex:1;
                                 display: flex;
                                 justify-content: space-evenly;
+                                flex:1;
                                 align-items: center;
                             }
-                            .kontakt:hover{
-                                background-color: #161616;
-                            }
-                            .kontakt:active{
-                                background-color: #0e0d0d;
-                            }
+                           
                         }
                         a:link{
                             color:white;
@@ -571,7 +542,7 @@ width:100%;
         }
     }
     .projects1{
-        padding-top: 20%!important;
+        padding-top: 15%!important;
         padding-bottom: 20%!important;
         .tytul{
             p{
@@ -599,8 +570,8 @@ width:100%;
         }
     } 
     .contact1{
-        padding-top:50%!important;
-        padding-bottom:50%!important;
+        padding-top:25%!important;
+        padding-bottom:25%!important;
     }
     .menuR{
         position: sticky;
