@@ -236,6 +236,10 @@ body .menu .pen .menuB a .start {
           align-items: center;
 }
 
+body .menu .pen .menuB a .start img {
+  width: 100%;
+}
+
 body .menu .pen .menuB a {
   text-decoration: none;
 }
