@@ -191,9 +191,11 @@ body .menu {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+  padding: 2%;
 }
 
 body .menu .pen {
+  height: 6vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -211,49 +213,29 @@ body .menu .pen {
           align-items: center;
 }
 
-body .menu .pen .kreska {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
 body .menu .pen .menuB {
+  background-image: url("pen.png");
+  background-size: 100% 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   position: absolute;
+  padding: 1% 5%;
 }
 
-body .menu .pen .menuB a .start {
-  height: 6vh;
-  width: 14vh;
-  border-radius: 10vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+body .menu .pen .menuB a {
+  text-decoration: none;
 }
 
 body .menu .pen .menuB a .start img {
   width: 100%;
+  padding-right: 10%;
 }
 
-body .menu .pen .menuB a {
-  text-decoration: none;
-}
-
-body .menu .pen .menuB a .omnie {
+body .menu .pen .menuB a .omnie,
+body .menu .pen .menuB a .projekty,
+body .menu .pen .menuB a .kontakt,
+body .menu .pen .menuB a .start {
   height: 6vh;
   width: 16vh;
   display: -webkit-box;
@@ -270,62 +252,10 @@ body .menu .pen .menuB a .omnie {
           align-items: center;
 }
 
-body .menu .pen .menuB a:link {
-  color: white;
-}
-
-body .menu .pen .menuB a:visited {
-  color: white;
-}
-
-body .menu .pen .menuB a {
-  text-decoration: none;
-}
-
-body .menu .pen .menuB a .projekty {
-  height: 6vh;
-  width: 16vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-body .menu .pen .menuB a:link {
-  color: white;
-}
-
-body .menu .pen .menuB a:visited {
-  color: white;
-}
-
-body .menu .pen .menuB a {
-  text-decoration: none;
-}
-
-body .menu .pen .menuB a .kontakt {
-  height: 6vh;
-  width: 16vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+body .menu .pen .menuB a p {
+  border-left: 1px solid white;
+  width: 100%;
+  text-align: center;
 }
 
 body .menu .pen .menuB a:link {
@@ -809,46 +739,21 @@ body .contact1 p {
     -webkit-box-align: center !important;
         -ms-flex-align: center !important;
             align-items: center !important;
+    padding-bottom: 2%;
+    padding-top: 2%;
   }
   .menuR p {
     color: white !important;
     font-size: 1.2rem;
   }
+  .menuR .kreska {
+    color: white;
+  }
   .menuR a {
     text-decoration: none;
   }
-  .menuR a .omnieR {
-    height: 6vh !important;
-    width: 16vh !important;
-    -webkit-box-flex: 1 !important;
-        -ms-flex: 1 !important;
-            flex: 1 !important;
-    display: -webkit-box !important;
-    display: -ms-flexbox !important;
-    display: flex !important;
-    -webkit-box-pack: space-evenly !important;
-        -ms-flex-pack: space-evenly !important;
-            justify-content: space-evenly !important;
-    -webkit-box-align: center !important;
-        -ms-flex-align: center !important;
-            align-items: center !important;
-  }
-  .menuR a .projektyR {
-    height: 6vh !important;
-    width: 16vh !important;
-    -webkit-box-flex: 1 !important;
-        -ms-flex: 1 !important;
-            flex: 1 !important;
-    display: -webkit-box !important;
-    display: -ms-flexbox !important;
-    display: flex !important;
-    -webkit-box-pack: space-evenly !important;
-        -ms-flex-pack: space-evenly !important;
-            justify-content: space-evenly !important;
-    -webkit-box-align: center !important;
-        -ms-flex-align: center !important;
-            align-items: center !important;
-  }
+  .menuR a .omnieR,
+  .menuR a .projektyR,
   .menuR a .kontaktR {
     height: 6vh !important;
     width: 16vh !important;

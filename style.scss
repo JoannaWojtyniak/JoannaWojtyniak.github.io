@@ -133,8 +133,10 @@ width:100%;
             background-color: black;
             position: sticky;
             top:0;
+            padding:2%;
             
             .pen{
+                height: 6vh;
                 display: flex;
                 padding-top:1%;
                 justify-content: center;
@@ -144,80 +146,40 @@ width:100%;
                 font-size: 1.2rem;
                 font-weight: bold;
                 align-items: center;
-                .kreska{
-                    display: flex;
-                    align-items: center;
-                }
                 .menuB{
+                    background-image: url("pen.png");
+                    background-size: 100% 100%;
                     display: flex;
                     position: absolute;
+                    padding:1% 5%;
                     a{
+                        text-decoration: none;
                         .start{
-                            
-                            height: 6vh;
-                            width:14vh; 
-                            border-radius:10vh;
-                            display: flex;
-                            justify-content: space-evenly;
-                            flex:1;
-                            align-items: center;
                             img{
                                 width:100%;
+                                padding-right: 10%;
                             }
 
                         }
                         
-                    }
-                        a{
-                        text-decoration: none;
-                            .omnie{
-                                height: 6vh;
-                                width:16vh; 
-                                display: flex;
-                                justify-content: space-evenly;
-                                flex:1;
-                                align-items: center;
+                         .omnie,
+                         .projekty,
+                         .kontakt,
+                         .start{
+                            height: 6vh;
+                            width:16vh; 
+                            display: flex;
+                            justify-content: space-evenly;
+                            flex:1;
+                            align-items: center;
                             }
-                          
-                        } 
-                        a:link{
-                            color:white;
-                        }
-                        a:visited{
-                            color:white;
-                        } 
-            
-                    
-                        a{
-                            text-decoration: none;
-                            .projekty{
-                                height: 6vh;
-                                width:16vh; 
-                                display: flex;
-                                justify-content: space-evenly;
-                                flex:1;
-                                align-items: center;
-                            }
-                          
-                        }
-                        a:link{
-                            color:white;
-                        }
-                        a:visited{
-                            color:white;
-                        }
-                        a{
-                            text-decoration: none;
-                            .kontakt{
-                                height: 6vh;
-                                width:16vh; 
-                                display: flex;
-                                justify-content: space-evenly;
-                                flex:1;
-                                align-items: center;
-                            }
+                        p{
+                            border-left: 1px solid white;
+                            width:100%;
+                            text-align: center;
                            
                         }
+                    }        
                         a:link{
                             color:white;
                         }
@@ -587,30 +549,19 @@ width:100%;
         display: flex!important;
         justify-content: space-evenly;
         align-items: center!important;
+        padding-bottom: 2%;
+        padding-top: 2%;
         p{
             color:white!important; 
             font-size: 1.2rem;
         }
+        .kreska{
+            color: white;   
+        }
         a{
             text-decoration: none;
-            .omnieR{
-                height: 6vh!important;
-                width:16vh!important; 
-                flex:1!important;
-                display: flex!important;
-                justify-content: space-evenly!important;
-                align-items: center!important;
-            }
-           
-            .projektyR{
-                height: 6vh!important;
-                width:16vh!important; 
-                flex:1!important;
-                display: flex!important;
-                justify-content: space-evenly!important;
-                align-items: center!important;
-            }
-          
+            .omnieR,
+            .projektyR,
             .kontaktR{
                 height: 6vh!important;
                 width:16vh!important; 
