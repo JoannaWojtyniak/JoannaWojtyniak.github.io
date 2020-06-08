@@ -617,6 +617,12 @@ body .contact1 p {
   .container .text {
     padding-top: 50px !important;
   }
+  .container .text .titleA h2 {
+    font-size: 3.5rem !important;
+  }
+  .container .text .titleA p {
+    font-size: 2rem;
+  }
   .container .zainteresowania {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -626,19 +632,19 @@ body .contact1 p {
             justify-content: space-evenly;
     text-align: center;
     color: white;
-    font-size: 0.75rem !important;
+    font-size: 1.4rem !important;
   }
   .container .zainteresowania .buttonZ {
     background-color: #202020;
     border: 3px solid #0f0f0f;
-    height: 50px;
+    height: 80px !important;
     width: 45% !important;
     border-radius: 10vh;
   }
   .container .zainteresowania .buttonZ1 {
     background-color: #202020;
     border: 3px solid #0f0f0f;
-    height: 50px;
+    height: 80px !important;
     width: 45% !important;
     border-radius: 10vh;
   }
@@ -650,19 +656,19 @@ body .contact1 p {
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
     padding-bottom: 5vh;
-    font-size: 0.75rem !important;
+    font-size: 1.4rem !important;
   }
   .container .znajomosc .first .button1 {
     background-color: #202020;
     border: 3px solid #0f0f0f;
-    height: 50px;
+    height: 80px !important;
     width: 45% !important;
     border-radius: 10vh;
   }
   .container .znajomosc .first .button2 {
     background-color: #202020;
     border: 3px solid #0f0f0f;
-    height: 50px;
+    height: 80px !important;
     width: 45% !important;
     border-radius: 10vh;
   }
@@ -679,27 +685,31 @@ body .contact1 p {
   .container .znajomosc .second .button3 {
     background-color: #202020;
     border: 3px solid #0f0f0f;
-    height: 50px;
+    height: 80px !important;
     width: 45% !important;
     border-radius: 10vh;
   }
   .container .znajomosc .second .button4 {
     background-color: #202020;
     border: 3px solid #0f0f0f;
-    height: 50px;
+    height: 80px !important;
     width: 45% !important;
     border-radius: 10vh;
   }
   .aboutme1 .title {
-    padding-top: 0% !important;
+    padding-top: 7% !important;
     margin-top: -1%;
   }
+  .aboutme1 .title p {
+    font-size: 3rem !important;
+  }
   .projects1 {
-    padding-top: 20% !important;
+    padding-top: 17% !important;
     padding-bottom: 20% !important;
   }
   .projects1 .tytul p {
     padding-bottom: 10% !important;
+    font-size: 3rem !important;
   }
   .projects1 .karuzela {
     -webkit-box-flex: 10 !important;
@@ -753,7 +763,7 @@ body .contact1 p {
   }
   .menuR p {
     color: white !important;
-    font-size: 1.2rem;
+    font-size: 2rem !important;
   }
   .menuR .kreska {
     color: white;
@@ -766,9 +776,6 @@ body .contact1 p {
   .menuR a .projektyR,
   .menuR a .kontaktR {
     height: 6vh !important;
-    -webkit-box-flex: 1 !important;
-        -ms-flex: 1 !important;
-            flex: 1 !important;
     display: -webkit-box !important;
     display: -ms-flexbox !important;
     display: flex !important;
@@ -828,6 +835,12 @@ body .contact1 p {
   .container .text {
     padding-top: 50px !important;
   }
+  .container .text .titleA h2 {
+    font-size: 2rem !important;
+  }
+  .container .text .titleA p {
+    font-size: 1.2rem;
+  }
   .container .zainteresowania {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -842,14 +855,14 @@ body .contact1 p {
   .container .zainteresowania .buttonZ {
     background-color: #202020;
     border: 3px solid #0f0f0f;
-    height: 50px;
+    height: 50px !important;
     width: 45% !important;
     border-radius: 10vh;
   }
   .container .zainteresowania .buttonZ1 {
     background-color: #202020;
     border: 3px solid #0f0f0f;
-    height: 50px;
+    height: 50px !important;
     width: 45% !important;
     border-radius: 10vh;
   }
@@ -866,14 +879,14 @@ body .contact1 p {
   .container .znajomosc .first .button1 {
     background-color: #202020;
     border: 3px solid #0f0f0f;
-    height: 50px;
+    height: 50px !important;
     width: 45% !important;
     border-radius: 10vh;
   }
   .container .znajomosc .first .button2 {
     background-color: #202020;
     border: 3px solid #0f0f0f;
-    height: 50px;
+    height: 50px !important;
     width: 45% !important;
     border-radius: 10vh;
   }
@@ -890,19 +903,19 @@ body .contact1 p {
   .container .znajomosc .second .button3 {
     background-color: #202020;
     border: 3px solid #0f0f0f;
-    height: 50px;
+    height: 50px !important;
     width: 45% !important;
     border-radius: 10vh;
   }
   .container .znajomosc .second .button4 {
     background-color: #202020;
     border: 3px solid #0f0f0f;
-    height: 50px;
+    height: 50px !important;
     width: 45% !important;
     border-radius: 10vh;
   }
   .aboutme1 .title {
-    padding-top: 0% !important;
+    padding-top: 3.5% !important;
     margin-top: -1%;
   }
   .projects1 {
@@ -964,7 +977,7 @@ body .contact1 p {
   }
   .menuR p {
     color: white !important;
-    font-size: 1.2rem;
+    font-size: 1.2rem !important;
   }
   .menuR .kreska {
     color: white;
