@@ -204,7 +204,7 @@ width:100%;
         .title{
             text-align: center;
             font-size:4rem;
-            color: white;
+            color: black;
             margin-bottom: -3%;
            
         }
@@ -324,11 +324,11 @@ width:100%;
     } 
     
     .projects1{
-        padding-top: 7%;
+        padding-top: 8%;
         background-image: url("triangular/triangular/triangular.png");
             .tytul{
                 p{
-                    color:white;
+                    color:black;
                     font-size: 4rem;
                     text-align: center;
                     margin:0;
@@ -343,30 +343,35 @@ width:100%;
                 padding-bottom: 5%;
                 .cofnij{ 
                     flex:1;
-                    font-size: 10rem;
-                    color:white;
+                    font-size: 8rem;
+                    color:#616161;
                     display: flex;
                     align-items: center;
-                    justify-content: center;
+                    justify-content: right;
+                    cursor: pointer;
                 }
                 .karuzela{
-                    flex:8;
-                    text-align:center;
+                    flex:4.5;
+                  // border: 1px black solid;
+                    height:60vh;
+                    display: flex;
+                    justify-content: center;
                     img{
-                        height:auto;
-                        width:60%;
+                        height:100%;
+                        width:auto;
                     }
             
                     
                     
                 }
                 .dalej{
-                    justify-content: center;
+                    justify-content: left;
                     flex:1;
-                    font-size: 10rem;
-                    color:white;
+                    font-size: 8rem;
+                    color:#616161;
                     display: flex;
                     align-items: center;
+                    cursor: pointer;
                 }
             } 
         
@@ -395,7 +400,7 @@ width:100%;
     }    
 }
 @media only screen and(max-width:1024px){
-    .body{
+    body{
         width:100%!important;
     }
     .obrazek{
@@ -511,7 +516,7 @@ width:100%;
         }
     }
     .projects1{
-        padding-top: 15%!important;
+        padding-top: 20%!important;
         padding-bottom: 20%!important;
         .tytul{
             p{
@@ -522,9 +527,10 @@ width:100%;
         .karuzela{
             flex:10!important;
             text-align:center;
+            height: 40vh!important;
             img{
-                height:auto!important;
-                width:90%!important;
+                height:100%!important;
+                width:auto!important;
             }
         }
         .cofnij{
@@ -560,11 +566,194 @@ width:100%;
         }
         a{
             text-decoration: none;
+            width:auto;
             .omnieR,
             .projektyR,
             .kontaktR{
                 height: 6vh!important;
-                width:16vh!important; 
+                flex:1!important;
+                display: flex!important;
+                justify-content: space-evenly!important;
+                align-items: center!important;
+            }
+           
+        }
+       
+    }
+      
+} 
+@media only screen and(max-width:600px){
+    body{
+        width:100%!important;
+    }
+    .obrazek{
+       display:none!important;
+    }
+    .menu{
+        display: none!important;
+        
+    }
+    .portfolioStart{
+       // background-image: url("ekran.gif")!important;
+    display: flex!important;
+    flex:1!important;
+    background-color: black;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left:5%;
+    padding-right:5%;
+    
+    
+    img{
+        height:100%!important;
+        width: 100%!important;
+        justify-content: center!important;
+        display:flex!important;
+        border: rgb(70, 70, 70) solid 5px;
+    }
+        
+    }
+    .container{
+        width:100%!important;
+        display: block!important;
+        text-align: center;
+        .zdjecie{
+            img{
+                height:auto!important;
+                width:50%!important;
+                border-radius: 50%!important;
+            }
+        }
+        .text{
+            padding-top: 50px!important;
+        }
+        .zainteresowania{
+            display: flex;
+            justify-content: space-evenly;
+            text-align: center;
+            color:white;
+            font-size: 0.75rem!important;
+            .buttonZ{
+                background-color:#202020 ;
+                border:3px solid rgb(15, 15, 15); 
+                height: 50px;
+                width:45%!important; 
+                border-radius:10vh;
+            }
+            .buttonZ1{
+                background-color:#202020 ;
+                border:3px solid rgb(15, 15, 15); 
+                height: 50px;
+                width:45%!important;  
+                border-radius:10vh;
+            }
+        }
+        .znajomosc{
+            .first{
+                display: flex;
+                justify-content: space-evenly;
+                padding-bottom: 5vh;
+                font-size: 0.75rem!important;
+                .button1{
+                    background-color:#202020 ;
+                    border:3px solid rgb(15, 15, 15); 
+                    height: 50px;
+                    width:45%!important;  
+                    border-radius:10vh;
+                } 
+                .button2{
+                    background-color:#202020 ;
+                    border:3px solid rgb(15, 15, 15); 
+                    height: 50px;
+                    width:45%!important; 
+                    border-radius:10vh;
+                }
+            }
+            .second{
+                display: flex;
+                justify-content: space-evenly;
+                padding-bottom: 10vh;
+                font-size: 0.75rem!important;
+                .button3{
+                    background-color:#202020 ;
+                    border:3px solid rgb(15, 15, 15); 
+                    height: 50px;
+                    width:45%!important; 
+                    border-radius:10vh;
+                } 
+                .button4{
+                    background-color:#202020 ;
+                    border:3px solid rgb(15, 15, 15); 
+                    height: 50px;
+                    width:45%!important; 
+                    border-radius:10vh;
+                }
+            }
+        }
+        
+    }
+    .aboutme1{
+        .title{
+            padding-top:0%!important;
+            margin-top: -1%;
+        }
+    }
+    .projects1{
+        padding-top: 20%!important;
+        padding-bottom: 20%!important;
+        .tytul{
+            p{
+                padding-bottom: 10%!important;
+            }
+        }
+         
+        .karuzela{
+            flex:10!important;
+            text-align:center;
+            height: 25vh!important;
+            img{
+                height:100%!important;
+                width:auto!important;
+            }
+        }
+        .cofnij{
+            font-size: 5rem!important;
+            justify-content: center!important;
+            display: flex!important;
+        }
+        .dalej{
+            font-size: 5rem!important;
+            justify-content: center!important;
+            display: flex!important;
+        }
+    } 
+    .contact1{
+        padding-top:25%!important;
+        padding-bottom:25%!important;
+    }
+    .menuR{
+        position: sticky;
+        top: 0;
+        background-color: black!important;
+        display: flex!important;
+        justify-content: space-evenly;
+        align-items: center!important;
+        padding-bottom: 2%;
+        padding-top: 2%;
+        p{
+            color:white!important; 
+            font-size: 1.2rem;
+        }
+        .kreska{
+            color: white;   
+        }
+        a{
+            text-decoration: none;
+            width:auto;
+            .omnieR,
+            .projektyR,
+            .kontaktR{
+                height: 6vh!important;
                 flex:1!important;
                 display: flex!important;
                 justify-content: space-evenly!important;
