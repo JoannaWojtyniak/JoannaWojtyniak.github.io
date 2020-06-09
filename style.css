@@ -59,7 +59,6 @@ body .obrazek .tablet {
 }
 
 body .obrazek .tablet .ekran1 {
-  background-color: #111111;
   height: 80%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -71,10 +70,17 @@ body .obrazek .tablet .ekran1 {
       -ms-flex: 4;
           flex: 4;
   border-radius: 3%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .obrazek .tablet .ekran1 img {
+  height: 90%;
+  width: auto;
 }
 
 body .obrazek .tablet .ekran2 {
-  background-color: #e1f8ff;
   height: 80%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -274,9 +280,12 @@ body .menuR {
   display: none;
 }
 
+body article {
+  background-image: url("triangular/triangular/triangular.png");
+}
+
 body .aboutme1 {
   padding-top: 3%;
-  background-image: url("triangular/triangular/triangular.png");
 }
 
 body .aboutme1 .title {
@@ -473,7 +482,6 @@ body .aboutme1 .container .picture .zdjecie img {
 
 body .projects1 {
   padding-top: 8%;
-  background-image: url("triangular/triangular/triangular.png");
 }
 
 body .projects1 .tytul p {
@@ -697,7 +705,7 @@ body .contact1 p {
     border-radius: 10vh;
   }
   .aboutme1 .title {
-    padding-top: 7% !important;
+    padding-top: 9% !important;
     margin-top: -1%;
   }
   .aboutme1 .title p {

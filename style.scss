@@ -34,16 +34,21 @@ width:100%;
                 padding-right: 5%; 
         
         .ekran1{
-                background-color: #111111;
+                //background-color: #111111;
                 height: 80%;
                 display: flex;
                 align-items: center;
                 flex:4;
-                border-radius: 3%;  
+                border-radius: 3%; 
+                justify-content: center; 
+                img{
+                    height:90%;
+                    width:auto;
+                }
                 
             }
             .ekran2{
-                background-color: rgb(225, 248, 255);
+                //background-color: rgb(225, 248, 255);
                 height: 80%;
                 display: flex;
                 align-items: center;
@@ -51,7 +56,6 @@ width:100%;
                 border-radius: 3%; 
                 justify-content: center;
                 img{
-                    
                     height:90%;
                     width:auto;
                 }
@@ -197,9 +201,12 @@ width:100%;
     .menuR{
         display:none;
     }
+    article{
+        background-image: url("triangular/triangular/triangular.png");
+    }
     .aboutme1{
         padding-top:3%;
-        background-image: url("triangular/triangular/triangular.png");
+        //background-image: url("triangular/triangular/triangular.png");
         
         .title{
             text-align: center;
@@ -325,7 +332,7 @@ width:100%;
     
     .projects1{
         padding-top: 8%;
-        background-image: url("triangular/triangular/triangular.png");
+        //background-image: url("triangular/triangular/triangular.png");
             .tytul{
                 p{
                     color:black;
@@ -519,7 +526,7 @@ width:100%;
     }
     .aboutme1{
         .title{
-            padding-top:7%!important;
+            padding-top:9%!important;
             margin-top: -1%;
             p{
                 font-size: 3rem!important;
