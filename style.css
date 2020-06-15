@@ -855,8 +855,8 @@ body .contact1 p {
   }
   .container .zainteresowania .buttonZ:hover,
   .container .zainteresowania .buttonZ1:hover {
-    -webkit-transform: scale(1.2, 1.2) !important;
-            transform: scale(1.2, 1.2) !important;
+    -webkit-transform: scale(1, 1) !important;
+            transform: scale(1, 1) !important;
   }
   .container .znajomosc .first {
     display: -webkit-box;
