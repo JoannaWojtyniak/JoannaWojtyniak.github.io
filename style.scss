@@ -663,19 +663,18 @@ width:100%;
             text-align: center;
             color:white;
             font-size: 0.75rem!important;
-            .buttonZ{
+            .buttonZ,
+            .buttonZ1{
                 background-color:#202020 ;
                 border:3px solid rgb(15, 15, 15); 
                 height: 50px!important;
                 width:45%!important; 
                 border-radius:10vh;
             }
-            .buttonZ1{
-                background-color:#202020 ;
-                border:3px solid rgb(15, 15, 15); 
-                height: 50px!important;
-                width:45%!important;  
-                border-radius:10vh;
+            .buttonZ:hover,
+            .buttonZ1:hover{
+             transform:scale(1.2,1.2)!important;
+                           
             }
         }
         .znajomosc{

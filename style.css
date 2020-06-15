@@ -845,19 +845,18 @@ body .contact1 p {
     color: white;
     font-size: 0.75rem !important;
   }
-  .container .zainteresowania .buttonZ {
-    background-color: #202020;
-    border: 3px solid #0f0f0f;
-    height: 50px !important;
-    width: 45% !important;
-    border-radius: 10vh;
-  }
+  .container .zainteresowania .buttonZ,
   .container .zainteresowania .buttonZ1 {
     background-color: #202020;
     border: 3px solid #0f0f0f;
     height: 50px !important;
     width: 45% !important;
     border-radius: 10vh;
+  }
+  .container .zainteresowania .buttonZ:hover,
+  .container .zainteresowania .buttonZ1:hover {
+    -webkit-transform: scale(1.2, 1.2) !important;
+            transform: scale(1.2, 1.2) !important;
   }
   .container .znajomosc .first {
     display: -webkit-box;
