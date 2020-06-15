@@ -34,7 +34,8 @@ body .obrazek .kabel img {
 }
 
 body .obrazek .metka {
-  background-color: gray;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#807f7f), to(#4e4e4e));
+  background-image: linear-gradient(to bottom right, #807f7f, #4e4e4e);
   height: 20vh;
   -webkit-box-flex: 0.75;
       -ms-flex: 0.75;
@@ -45,7 +46,8 @@ body .obrazek .tablet {
   -webkit-box-flex: 8;
       -ms-flex: 8;
           flex: 8;
-  background-color: #303030;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#414141), color-stop(#282828), color-stop(#282828), to(#1A1A1A));
+  background-image: linear-gradient(to bottom, #414141, #282828, #282828, #1A1A1A);
   height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -120,8 +122,8 @@ body .obrazek .tablet .container {
 }
 
 body .obrazek .tablet .container .undermB {
-  background-color: #1E1D1D;
-  border: 0.5vh #575757 solid;
+  background-color: #1f1f1f;
+  border: 0.4vh #575757 solid;
   height: 15vh;
   width: 15vh;
   border-radius: 50%;
@@ -137,8 +139,8 @@ body .obrazek .tablet .container .undermB {
 }
 
 body .obrazek .tablet .container .undermB .mainButton {
-  background-color: #393939;
-  border: 0.5vh solid #100F0F;
+  background-image: radial-gradient(#3f3f3f, #1a1a1a);
+  border: 0.4vh solid #100F0F;
   height: 10vh;
   width: 10vh;
   border-radius: 50%;
@@ -149,16 +151,17 @@ body .obrazek .tablet .container .undermB .mainButton {
 }
 
 body .obrazek .tablet .container .undermB .mainButton:hover {
-  background-color: #1d1d1d;
+  background-image: radial-gradient(#131313, #1d1d1d);
 }
 
 body .obrazek .tablet .container .undermB .mainButton:active {
-  background-color: #111111;
+  background-image: radial-gradient(#0c0c0c, #111111, #1b1b1b);
 }
 
 body .obrazek .tablet .container .button1 {
-  background-color: #202020;
-  border: 0.5vh solid #0f0f0f;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#111111), to(#3f3f3f));
+  background-image: linear-gradient(to bottom right, #111111, #3f3f3f);
+  border: 0.4vh solid #0f0f0f;
   height: 6vh;
   width: 20vh;
   border-radius: 10vh;
@@ -166,8 +169,9 @@ body .obrazek .tablet .container .button1 {
 }
 
 body .obrazek .tablet .container .button2 {
-  background-color: #202020;
-  border: 0.5vh solid #0f0f0f;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#111111), to(#3f3f3f));
+  background-image: linear-gradient(to bottom right, #111111, #3f3f3f);
+  border: 0.4vh solid #0f0f0f;
   height: 6vh;
   width: 20vh;
   border-radius: 10vh;
@@ -175,8 +179,9 @@ body .obrazek .tablet .container .button2 {
 }
 
 body .obrazek .tablet .container .button3 {
-  background-color: #202020;
-  border: 0.5vh solid #0f0f0f;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#111111), to(#3f3f3f));
+  background-image: linear-gradient(to bottom right, #111111, #3f3f3f);
+  border: 0.4vh solid #0f0f0f;
   height: 6vh;
   width: 20vh;
   border-radius: 10vh;
@@ -184,8 +189,9 @@ body .obrazek .tablet .container .button3 {
 }
 
 body .obrazek .tablet .container .button4 {
-  background-color: #202020;
-  border: 0.5vh solid #0f0f0f;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#111111), to(#3f3f3f));
+  background-image: linear-gradient(to bottom right, #111111, #3f3f3f);
+  border: 0.4vh solid #0f0f0f;
   height: 6vh;
   width: 20vh;
   border-radius: 10vh;
@@ -332,8 +338,10 @@ body .aboutme1 .container .text .zainteresowania {
   font-size: 0.85rem;
 }
 
-body .aboutme1 .container .text .zainteresowania .buttonZ {
-  background-color: #202020;
+body .aboutme1 .container .text .zainteresowania .buttonZ,
+body .aboutme1 .container .text .zainteresowania .buttonZ1 {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#000000), to(#3f3f3f));
+  background-image: linear-gradient(to bottom right, #000000, #3f3f3f);
   border: 3px solid #0f0f0f;
   height: 50px;
   width: 30%;
@@ -347,23 +355,14 @@ body .aboutme1 .container .text .zainteresowania .buttonZ {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
-body .aboutme1 .container .text .zainteresowania .buttonZ1 {
-  background-color: #202020;
-  border: 3px solid #0f0f0f;
-  height: 50px;
-  width: 30%;
-  border-radius: 10vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+body .aboutme1 .container .text .zainteresowania .buttonZ:hover,
+body .aboutme1 .container .text .zainteresowania .buttonZ1:hover {
+  -webkit-transform: scale(1.5, 1.5);
+          transform: scale(1.5, 1.5);
 }
 
 body .aboutme1 .container .text .znajomosc .first {
@@ -378,8 +377,10 @@ body .aboutme1 .container .text .znajomosc .first {
   font-size: 0.85rem;
 }
 
-body .aboutme1 .container .text .znajomosc .first .button1 {
-  background-color: #202020;
+body .aboutme1 .container .text .znajomosc .first .button1,
+body .aboutme1 .container .text .znajomosc .first .button2 {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#000000), to(#3f3f3f));
+  background-image: linear-gradient(to bottom right, #000000, #3f3f3f);
   border: 3px solid #0f0f0f;
   height: 50px;
   width: 30%;
@@ -393,23 +394,14 @@ body .aboutme1 .container .text .znajomosc .first .button1 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
-body .aboutme1 .container .text .znajomosc .first .button2 {
-  background-color: #202020;
-  border: 3px solid #0f0f0f;
-  height: 50px;
-  width: 30%;
-  border-radius: 10vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+body .aboutme1 .container .text .znajomosc .first .button1:hover,
+body .aboutme1 .container .text .znajomosc .first .button2:hover {
+  -webkit-transform: scale(1.5, 1.5);
+          transform: scale(1.5, 1.5);
 }
 
 body .aboutme1 .container .text .znajomosc .second {
@@ -425,8 +417,10 @@ body .aboutme1 .container .text .znajomosc .second {
   font-size: 0.85rem;
 }
 
-body .aboutme1 .container .text .znajomosc .second .button3 {
-  background-color: #202020;
+body .aboutme1 .container .text .znajomosc .second .button3,
+body .aboutme1 .container .text .znajomosc .second .button4 {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#000000), to(#3f3f3f));
+  background-image: linear-gradient(to bottom right, #000000, #3f3f3f);
   border: 3px solid #0f0f0f;
   height: 50px;
   width: 30%;
@@ -440,23 +434,14 @@ body .aboutme1 .container .text .znajomosc .second .button3 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
-body .aboutme1 .container .text .znajomosc .second .button4 {
-  background-color: #202020;
-  border: 3px solid #0f0f0f;
-  height: 50px;
-  width: 30%;
-  border-radius: 10vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+body .aboutme1 .container .text .znajomosc .second .button3:hover,
+body .aboutme1 .container .text .znajomosc .second .button4:hover {
+  -webkit-transform: scale(1.5, 1.5);
+          transform: scale(1.5, 1.5);
 }
 
 body .aboutme1 .container .picture {

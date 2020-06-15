@@ -18,15 +18,18 @@ width:100%;
             }
             }
             .metka{
-                background-color: gray;
+                //background-color: gray;
+                background-image: linear-gradient(to bottom right, rgb(128, 127, 127), rgb(78, 78, 78));
                 height:20vh;
                 flex:0.75;
             }
 
             .tablet{
                 flex:8;
-                background-color: #303030;
-                height:100%;
+                //background-color: #303030;
+               //background-image: linear-gradient(to bottom , #131313,#252525,#2c2c2c,#302f2f,#302f2f,#494949);
+               background-image: linear-gradient(to bottom,#414141,#282828,#282828,#1A1A1A);
+               height:100%;
                 display: flex;
                 align-items: center;
                 border-radius: 3%;
@@ -71,17 +74,19 @@ width:100%;
                 
             
                         .undermB{
-                            background-color: #1E1D1D;
-                            border:0.5vh rgb(87, 87, 87) solid;
+                            background-color: rgb(31, 31, 31);
+                            border:0.4vh rgb(87, 87, 87) solid;
                             height:15vh;
                             width:15vh;
                             border-radius: 50%;
                             display: flex;
                             justify-content: center;
                             align-items: center;
-                            .mainButton{         
-                            background-color: #393939;
-                            border:0.5vh solid #100F0F;
+                            .mainButton{  
+                            //background-image: linear-gradient(to bottom right,#181818, #292929,#686868);          
+                            //background-color: #393939;
+                            background-image: radial-gradient(#3f3f3f ,#1a1a1a );
+                            border:0.4vh solid #100F0F;
                             height:10vh;
                             width:10vh;
                             border-radius: 50%;
@@ -89,40 +94,42 @@ width:100%;
                             z-index: 10;
                             }
                             .mainButton:hover{
-                                background-color: #1d1d1d;
+                                //background-color: #1d1d1d;
+                                background-image: radial-gradient(#131313 ,#1d1d1d );
                             }
                             .mainButton:active{
-                                background-color:#111111;
+                                //background-color:#111111;
+                                background-image: radial-gradient(#0c0c0c ,#111111,#1b1b1b );
                             }
                 
                         }    
                     .button1{
-                    background-color:#202020 ;
-                    border:0.5vh solid rgb(15, 15, 15); 
+                    background-image: linear-gradient(to bottom right,#111111,#3f3f3f);
+                    border:0.4vh solid rgb(15, 15, 15); 
                     height: 6vh;
                     width:20vh; 
                     border-radius:10vh;
                     margin-bottom: 2vh;
                     }  
                     .button2{
-                        background-color:#202020 ;
-                        border:0.5vh solid rgb(15, 15, 15); 
+                        background-image: linear-gradient(to bottom right,#111111,#3f3f3f);
+                        border:0.4vh solid rgb(15, 15, 15); 
                         height: 6vh;
                         width:20vh; 
                         border-radius:10vh;
                         margin-bottom: 2vh;
                     }  
                     .button3{
-                        background-color:#202020 ;
-                    border:0.5vh solid rgb(15, 15, 15); 
+                    background-image: linear-gradient(to bottom right,#111111,#3f3f3f);
+                    border:0.4vh solid rgb(15, 15, 15); 
                     height: 6vh;
                     width:20vh; 
                     border-radius:10vh;
                     margin-top: 2vh;
                     }  
                     .button4{
-                        background-color:#202020 ;
-                        border:0.5vh solid rgb(15, 15, 15); 
+                        background-image: linear-gradient(to bottom right,#111111,#3f3f3f);
+                        border:0.4vh solid rgb(15, 15, 15); 
                         height: 6vh;
                         width:20vh; 
                         border-radius:10vh;
@@ -134,7 +141,7 @@ width:100%;
             
     }
     .menu{
-            background-color: black;
+           background-color: black;
             position: sticky;
             top:0;
             padding:2%;
@@ -232,18 +239,10 @@ width:100%;
                         text-align: center;
                         color:white;
                         font-size: 0.85rem;
-                        .buttonZ{
-                            background-color:#202020 ;
-                            border:3px solid rgb(15, 15, 15); 
-                            height: 50px;
-                            width:30%; 
-                            border-radius:10vh;
-                            display: flex;
-                            justify-content: center;
-                            align-items: center;
-                        }
+                        .buttonZ,
                         .buttonZ1{
-                            background-color:#202020 ;
+                          //  background-color:#202020 ;
+                          background-image: linear-gradient(to bottom right,#000000,#3f3f3f);
                             border:3px solid rgb(15, 15, 15); 
                             height: 50px;
                             width:30%; 
@@ -251,7 +250,14 @@ width:100%;
                             display: flex;
                             justify-content: center;
                             align-items: center;
+                            transition: 1s;
                         }
+                        .buttonZ:hover,
+                        .buttonZ1:hover{
+                            transform: scale(1.5,1.5);
+                           
+                        }
+                       
                     }
                     .znajomosc{
                         .first{
@@ -260,18 +266,9 @@ width:100%;
                             padding-bottom: 3%;
                             color:white;
                             font-size:0.85rem;
-                            .button1{
-                                background-color:#202020 ;
-                                border:3px solid rgb(15, 15, 15); 
-                                height: 50px;
-                                width:30%; 
-                                border-radius:10vh;
-                                display: flex;
-                                justify-content: center;
-                                align-items: center;
-                            } 
+                            .button1,
                             .button2{
-                                background-color:#202020 ;
+                                background-image: linear-gradient(to bottom right,#000000,#3f3f3f);
                                 border:3px solid rgb(15, 15, 15); 
                                 height: 50px;
                                 width:30%; 
@@ -279,6 +276,11 @@ width:100%;
                                 display: flex;
                                 justify-content: center;
                                 align-items: center;
+                                transition: 1s;
+                            } 
+                            .button1:hover,
+                            .button2:hover{
+                                transform: scale(1.5,1.5);  
                             }
                         }
                         .second{
@@ -288,18 +290,9 @@ width:100%;
                             text-align: center;
                             color:white;
                             font-size: 0.85rem;
-                            .button3{
-                                background-color:#202020 ;
-                                border:3px solid rgb(15, 15, 15); 
-                                height: 50px;
-                                width:30%; 
-                                border-radius:10vh;
-                                display: flex;
-                                justify-content: center;
-                                align-items: center;
-                            } 
+                            .button3,
                             .button4{
-                                background-color:#202020 ;
+                                background-image: linear-gradient(to bottom right,#000000,#3f3f3f);
                                 border:3px solid rgb(15, 15, 15); 
                                 height: 50px;
                                 width:30%; 
@@ -307,6 +300,11 @@ width:100%;
                                 display: flex;
                                 justify-content: center;
                                 align-items: center;
+                                transition: 1s;
+                            } 
+                            .button3:hover,
+                            .button4:hover{
+                                transform: scale(1.5,1.5);  
                             }
                         }
                     }
@@ -363,10 +361,13 @@ width:100%;
                     height:60vh;
                     display: flex;
                     justify-content: center;
+                    
+                   
                     img{
                         height:100%;
                         width:auto;
                     }
+                    
             
                     
                     
