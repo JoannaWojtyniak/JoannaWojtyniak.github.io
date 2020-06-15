@@ -868,19 +868,18 @@ body .contact1 p {
     padding-bottom: 5vh;
     font-size: 0.75rem !important;
   }
-  .container .znajomosc .first .button1 {
-    background-color: #202020;
-    border: 3px solid #0f0f0f;
-    height: 50px !important;
-    width: 45% !important;
-    border-radius: 10vh;
-  }
+  .container .znajomosc .first .button1,
   .container .znajomosc .first .button2 {
     background-color: #202020;
     border: 3px solid #0f0f0f;
     height: 50px !important;
     width: 45% !important;
     border-radius: 10vh;
+  }
+  .container .znajomosc .first .button1:hover,
+  .container .znajomosc .first .button2:hover {
+    -webkit-transform: scale(1, 1) !important;
+            transform: scale(1, 1) !important;
   }
   .container .znajomosc .second {
     display: -webkit-box;
@@ -892,19 +891,18 @@ body .contact1 p {
     padding-bottom: 10vh;
     font-size: 0.75rem !important;
   }
-  .container .znajomosc .second .button3 {
-    background-color: #202020;
-    border: 3px solid #0f0f0f;
-    height: 50px !important;
-    width: 45% !important;
-    border-radius: 10vh;
-  }
+  .container .znajomosc .second .button3,
   .container .znajomosc .second .button4 {
     background-color: #202020;
     border: 3px solid #0f0f0f;
     height: 50px !important;
     width: 45% !important;
     border-radius: 10vh;
+  }
+  .container .znajomosc .second .button3:hover,
+  .container .znajomosc .second .button4:hover {
+    -webkit-transform: scale(1, 1) !important;
+            transform: scale(1, 1) !important;
   }
   .aboutme1 .title {
     padding-top: 3.5% !important;

@@ -683,40 +683,38 @@ width:100%;
                 justify-content: space-evenly;
                 padding-bottom: 5vh;
                 font-size: 0.75rem!important;
-                .button1{
+                .button1,
+                .button2{
                     background-color:#202020 ;
                     border:3px solid rgb(15, 15, 15); 
                     height: 50px!important;
                     width:45%!important;  
                     border-radius:10vh;
                 } 
-                .button2{
-                    background-color:#202020 ;
-                    border:3px solid rgb(15, 15, 15); 
-                    height: 50px!important;
-                    width:45%!important; 
-                    border-radius:10vh;
-                }
+            .button1:hover,
+            .button2:hover{
+             transform:scale(1,1)!important;
+                           
+            }
             }
             .second{
                 display: flex;
                 justify-content: space-evenly;
                 padding-bottom: 10vh;
                 font-size: 0.75rem!important;
-                .button3{
-                    background-color:#202020 ;
-                    border:3px solid rgb(15, 15, 15); 
-                    height: 50px!important;
-                    width:45%!important; 
-                    border-radius:10vh;
-                } 
+                .button3,
                 .button4{
                     background-color:#202020 ;
                     border:3px solid rgb(15, 15, 15); 
                     height: 50px!important;
                     width:45%!important; 
                     border-radius:10vh;
-                }
+                } 
+            .button3:hover,
+            .button4:hover{
+             transform:scale(1,1)!important;
+                           
+            }
             }
         }
         
