@@ -1,5 +1,8 @@
 /* Background pattern from Toptal Subtle Patterns */
 *{box-sizing: border-box;}
+html{
+    scroll-behavior: smooth;
+}
 body{
 margin:0;
 font-family: 'Work Sans', sans-serif;
@@ -292,8 +295,8 @@ width:100%;
                             font-size: 0.85rem;
                             .button3,
                             .button4{
-                                background-image: linear-gradient(to bottom right,#000000,#3f3f3f);
-                                border:3px solid rgb(15, 15, 15); 
+                               background-image: linear-gradient(to bottom right,#000000,#3f3f3f);
+                               border:3px solid rgb(15, 15, 15); 
                                 height: 50px;
                                 width:30%; 
                                 border-radius:10vh;
@@ -330,6 +333,7 @@ width:100%;
     
     .projects1{
         padding-top: 8%;
+        padding-bottom: 8%;
         //background-image: url("triangular/triangular/triangular.png");
             .tytul{
                 p{
@@ -342,30 +346,37 @@ width:100%;
                 
             } 
             .kontener{
+                font-family: 'Ranchers', cursive;
                 display: flex;
                 height:auto;
                 width:100%;
-                padding-bottom: 5%;
-                .cofnij{ 
+                .cofnij{
+                    justify-content: center;
                     flex:1;
-                    font-size: 8rem;
-                    color:#6e6e6e;
                     display: flex;
                     align-items: center;
-                    justify-content: right;
                     cursor: pointer;
+                    
+                    .prev{
+                        color:rgb(71, 71, 71);
+                        font-size: 4rem;
+                    }
                 }
+                    
                 .karuzela{
-                    flex:4.5;
+                    flex:1.5;
                   // border: 1px black solid;
-                    height:60vh;
+                   height:60vh;
                     display: flex;
                     justify-content: center;
-                    
+                   // border:2px blue solid;
                    
                     img{
                         height:100%;
                         width:auto;
+                       // border:2px yellow solid;
+                      //  box-shadow: 0px 0px 30px 10px rgb(54, 54, 54);
+                      
                     }
                     
             
@@ -373,13 +384,15 @@ width:100%;
                     
                 }
                 .dalej{
-                    justify-content: left;
+                    justify-content: center;
                     flex:1;
-                    font-size: 8rem;
-                    color:#6e6e6e;
                     display: flex;
                     align-items: center;
                     cursor: pointer;
+                    .next{
+                        color:rgb(71, 71, 71);
+                        font-size: 4rem;
+                    }
                 }
             } 
         
@@ -466,19 +479,18 @@ width:100%;
             text-align: center;
             color:white;
             font-size: 1.4rem!important;
-            .buttonZ{
+            .buttonZ,
+            .buttonZ1{
                 background-color:#202020 ;
                 border:3px solid rgb(15, 15, 15); 
                 height: 80px!important;
                 width:45%!important; 
                 border-radius:10vh;
             }
-            .buttonZ1{
-                background-color:#202020 ;
-                border:3px solid rgb(15, 15, 15); 
-                height: 80px!important;
-                width:45%!important;  
-                border-radius:10vh;
+            .buttonZ:hover,
+            .buttonZ1:hover{
+             transform:none!important;
+                           
             }
         }
         .znajomosc{
@@ -487,19 +499,18 @@ width:100%;
                 justify-content: space-evenly;
                 padding-bottom: 5vh;
                 font-size: 1.4rem!important;
-                .button1{
+                .button1,
+                .button2{
                     background-color:#202020 ;
                     border:3px solid rgb(15, 15, 15); 
                     height: 80px!important;
                     width:45%!important;  
                     border-radius:10vh;
                 } 
-                .button2{
-                    background-color:#202020 ;
-                    border:3px solid rgb(15, 15, 15); 
-                    height: 80px!important;
-                    width:45%!important; 
-                    border-radius:10vh;
+                .button1:hover,
+                .button2:hover{
+                    transform:none!important;
+                           
                 }
             }
             .second{
@@ -507,19 +518,19 @@ width:100%;
                 justify-content: space-evenly;
                 padding-bottom: 10vh;
                 font-size: 0.75rem!important;
-                .button3{
-                    background-color:#202020 ;
-                    border:3px solid rgb(15, 15, 15); 
-                    height: 80px!important;
-                    width:45%!important; 
-                    border-radius:10vh;
-                } 
+                .button3,
                 .button4{
                     background-color:#202020 ;
                     border:3px solid rgb(15, 15, 15); 
                     height: 80px!important;
                     width:45%!important; 
                     border-radius:10vh;
+                } 
+               
+                .button3:hover,
+                .button4:hover{
+                 transform:none!important;
+                               
                 }
             }
         }
@@ -673,7 +684,7 @@ width:100%;
             }
             .buttonZ:hover,
             .buttonZ1:hover{
-             transform:scale(1,1)!important;
+             transform:none!important;
                            
             }
         }
@@ -693,7 +704,7 @@ width:100%;
                 } 
             .button1:hover,
             .button2:hover{
-             transform:scale(1,1)!important;
+             transform:none!important;
                            
             }
             }
@@ -712,7 +723,7 @@ width:100%;
                 } 
             .button3:hover,
             .button4:hover{
-             transform:scale(1,1)!important;
+             transform:none!important;
                            
             }
             }
@@ -792,4 +803,5 @@ width:100%;
     }
       
 } 
+
 

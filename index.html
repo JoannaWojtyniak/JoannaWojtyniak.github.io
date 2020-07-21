@@ -12,6 +12,7 @@
     <meta property="og:site_name" content="Porfolio" />
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:300&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="fontello-3ba3fbd1/css/fontello.css"/>
     <link rel="icon" href="ikona.png"/>
 </head>
@@ -116,9 +117,11 @@
     <div class="projects1">
         <div class="tytul"><p>Projekty</p></div>
         <div class="kontener">
-          <div class = "cofnij" onclick="karuzela('lewo')">‹</div> 
-          <div class= "karuzela"></div>
-          <div class ="dalej" onclick="karuzela('prawo')">›</div>
+          <div class = "cofnij" onclick="karuzela('lewo')"><div class="prev">‹</div></div> 
+
+          <div class= "karuzela">
+          </div>
+          <div class ="dalej" onclick="karuzela('prawo')"><div class="next">›</div></div>
         </div>
     </div>    
   </article>
@@ -147,8 +150,9 @@
           slajd=10;
         }
       }
-      let karuzela=document.querySelector(".karuzela");
-      karuzela.innerHTML="<img src ='carousel"+slajd+".jpg'/>";
+     let karuzela=document.querySelector(".karuzela");
+      karuzela.innerHTML="<img src ='carousel"+slajd+".jpg'/>"
+    
     }
     karuzela();
     
