@@ -21,7 +21,6 @@ width:100%;
             }
             }
             .metka{
-                //background-color: gray;
                 background-image: linear-gradient(to bottom right, rgb(128, 127, 127), rgb(78, 78, 78));
                 height:20vh;
                 flex:0.75;
@@ -29,8 +28,6 @@ width:100%;
 
             .tablet{
                 flex:8;
-                //background-color: #303030;
-               //background-image: linear-gradient(to bottom , #131313,#252525,#2c2c2c,#302f2f,#302f2f,#494949);
                background-image: linear-gradient(to bottom,#414141,#282828,#282828,#1A1A1A);
                height:100%;
                 display: flex;
@@ -40,7 +37,6 @@ width:100%;
                 padding-right: 5%; 
         
         .ekran1{
-                //background-color: #111111;
                 height: 80%;
                 display: flex;
                 align-items: center;
@@ -54,7 +50,6 @@ width:100%;
                 
             }
             .ekran2{
-                //background-color: rgb(225, 248, 255);
                 height: 80%;
                 display: flex;
                 align-items: center;
@@ -86,8 +81,6 @@ width:100%;
                             justify-content: center;
                             align-items: center;
                             .mainButton{  
-                            //background-image: linear-gradient(to bottom right,#181818, #292929,#686868);          
-                            //background-color: #393939;
                             background-image: radial-gradient(#3f3f3f ,#1a1a1a );
                             border:0.4vh solid #100F0F;
                             height:10vh;
@@ -97,11 +90,9 @@ width:100%;
                             z-index: 10;
                             }
                             .mainButton:hover{
-                                //background-color: #1d1d1d;
                                 background-image: radial-gradient(#131313 ,#1d1d1d );
                             }
                             .mainButton:active{
-                                //background-color:#111111;
                                 background-image: radial-gradient(#0c0c0c ,#111111,#1b1b1b );
                             }
                 
@@ -216,8 +207,6 @@ width:100%;
     }
     .aboutme1{
         padding-top:3%;
-        //background-image: url("triangular/triangular/triangular.png");
-        
         .title{
             text-align: center;
             font-size:4rem;
@@ -244,7 +233,6 @@ width:100%;
                         font-size: 0.85rem;
                         .buttonZ,
                         .buttonZ1{
-                          //  background-color:#202020 ;
                           background-image: linear-gradient(to bottom right,#000000,#3f3f3f);
                             border:3px solid rgb(15, 15, 15); 
                             height: 50px;
@@ -334,7 +322,6 @@ width:100%;
     .projects1{
         padding-top: 8%;
         padding-bottom: 8%;
-        //background-image: url("triangular/triangular/triangular.png");
             .tytul{
                 p{
                     color:black;
@@ -365,18 +352,13 @@ width:100%;
                     
                 .karuzela{
                     flex:2;
-                  // border: 1px black solid;
                    height:60vh;
                     display: flex;
                     justify-content: center;
-                   // border:2px blue solid;
                    
                     img{
                         height:100%;
                         width:auto;
-                       // border:2px yellow solid;
-                      //  box-shadow: 0px 0px 30px 10px rgb(54, 54, 54);
-                      
                     }
                     
             
